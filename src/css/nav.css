@@ -1,0 +1,27 @@
+.background-color {
+	background-color: rgba(142, 142, 166, 0.405);
+	height: 4rem;
+}
+
+.nav-color {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.nav-item {
+	padding: 6px;
+	font-size: 28px;
+}
+
+.nav-color:hover {
+	color: rgba(99, 99, 99, 0.405);
+}
+
+.line-height {
+	line-height: 30px;
+}
+
+.logo-size {
+	height: 42px;
+}

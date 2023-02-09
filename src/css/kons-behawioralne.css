@@ -1,0 +1,71 @@
+.dog-pic {
+	display: flex;
+	justify-content: center;
+}
+/* h1 and h2 should not be here - can be modified and named as className */
+h1,
+h2 {
+	text-align: center;
+}
+
+.text-beh {
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.dog {
+	margin-top: 30px;
+	height: 400px;
+}
+
+.dog2 {
+	margin-top: 20px;
+	width: 250px;
+}
+
+.container-box-2 {
+	display: grid;
+	grid-template-columns: repeat(1, 160px);
+	grid-gap: 80px;
+}
+
+.container-box-2 .box-2 .chart {
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+	line-height: 160px;
+	color: #fff;
+}
+.container-box-2 .box-2 canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	width: 100%;
+}
+
+.text-end {
+	cursor: text;
+}
+
+@media only screen and (max-width: 991px) {
+	.dog {
+		width: 350px;
+		margin-bottom: 30px;
+	}
+
+	.box-2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 432px) {
+	.dog {
+		width: 180px;
+		margin-bottom: 30px;
+	}
+
+	.box-2 {
+		display: none;
+	}
+}

@@ -1,0 +1,125 @@
+.offerts {
+	display: flex;
+	justify-content: center;
+}
+
+.beh-img {
+	width: 160px !important;
+}
+
+.beh-pic {
+	display: flex;
+	justify-content: center;
+}
+
+.head-txt {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.offert-margin {
+	margin-top: 55px !important;
+}
+
+.ofert {
+	width: 380px;
+	height: 50px;
+	margin-top: 40px;
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+}
+
+.offert:hover {
+	margin: 10px;
+}
+
+.offerts {
+	display: flex;
+	justify-content: center;
+}
+
+.beh-img {
+	width: 200px;
+}
+
+.konsultacje {
+	align-items: center;
+	margin: 20px;
+	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
+		4px 4px 6px rgba(94, 104, 121, 0.288);
+}
+
+.offer-margin {
+	margin-bottom: 10%;
+}
+
+.offert-container-mobile {
+	display: none;
+}
+
+.img-price {
+	width: 250px;
+}
+
+.price-paw {
+	margin: 3%;
+	position: relative;
+}
+
+.paw-txt {
+	position: absolute;
+	color: black;
+	top: 150px;
+	left: 100px;
+	text-align: center;
+}
+
+.txt-align {
+	/* chce wyśrodkować ten tekst */
+}
+
+.offert-container {
+	margin-top: 40px;
+}
+
+.offert-btn {
+	margin-top: 20px;
+	border: 1px solid rgb(107, 112, 119) !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.offert-container-desktop {
+		display: none;
+	}
+
+	.offert-container-mobile {
+		display: block;
+		margin-bottom: 20%;
+	}
+
+	.txt-offert-mobile {
+		text-align: justify;
+	}
+
+	.dog-mobile {
+		width: 100px;
+	}
+
+	.beh-pic {
+		margin-bottom: 20px;
+	}
+
+	.btn-color {
+		border: 3px solid rgb(144, 138, 138) !important;
+	}
+	.offert-btn {
+		display: flex !important;
+		align-items: center;
+		justify-content: center !important;
+	}
+}

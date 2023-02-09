@@ -1,0 +1,140 @@
+body {
+	overflow-x: hidden;
+}
+
+.about-photo {
+	padding: 5px;
+}
+
+.photo,
+.photo1,
+.photoWhyMe {
+	height: 550px;
+	border-radius: 35%;
+	border: 4px solid #787075;
+	margin: 20px;
+}
+
+.photoWhyMe {
+	height: 500px !important;
+}
+
+.about {
+	height: 100vh;
+}
+
+.introduction {
+	max-width: 100%;
+	height: auto;
+	margin-top: 22vh;
+	/* background-color: rgb(222, 205, 205); */
+	/* background-color: #d8bba9; */
+	/* background-color: #787075; */
+	/* position: center; */
+	justify-content: center;
+	/* padding: 10px; */
+	overflow: hidden;
+}
+
+.about-exp {
+	margin: 30px;
+}
+
+.about-abo,
+.about-work {
+	text-align: justify;
+	margin: 40px;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.div1,
+.div2,
+.div3 {
+	width: 35%;
+	height: 10%;
+	margin: 15px;
+	padding: 10px;
+	font-size: 25px;
+	border: 3px solid #787075;
+	background-color: #787075;
+	color: white;
+	text-align: center; /* text-indent: -9999px; */
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover {
+	margin: 10px;
+	cursor: pointer;
+	/* text-indent: 0px; */
+}
+
+.divy {
+	display: flex;
+	justify-content: center;
+}
+.div1 {
+	float: left;
+}
+
+.div2 {
+	float: left;
+}
+
+.div3 {
+	float: left;
+}
+
+.bcg-color {
+	background-color: black;
+	height: 8%;
+}
+
+.nav-color {
+	color: white;
+	text-decoration: none;
+}
+.container-box {
+	width: 200vh;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+.introduction-mobile {
+	display: none;
+}
+
+.text-margin-top {
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+	.introduction-mobile {
+		display: block;
+	}
+
+	.intro-txt {
+		text-align: justify;
+		margin: 15px 10px 15px 10px;
+		box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
+			4px 4px 6px rgba(94, 104, 121, 0.288);
+	}
+
+	.introduction-desktop {
+		display: none;
+	}
+	.div1,
+	.div2,
+	.div3 {
+		height: 70px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.intro-btn {
+	}
+}
