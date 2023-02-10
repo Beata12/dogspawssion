@@ -46,13 +46,13 @@ function FirstOnlineBehCons() {
 			</div>
 			<div className="container-box-2 col-lg-3" data-aos="fade-left">
 				<div>
-					<div className="price-paw">
+					<div className="bonePrice">
 						<img
-							className="img-price"
-							src={require("./photo/dogsPaw.jpg")}
+							className="boneImg"
+							src={require("./photo/bone2.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
-						<p className="paw-txt">100 złotych</p>
+						<div className="boneText">100 złotych</div>
 					</div>
 				</div>
 			</div>

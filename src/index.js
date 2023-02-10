@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./css/hover.css";
 import "./css/ikony.css";
 import "./css/introduction.css";
 import "./css/kons-behawioralne.css";

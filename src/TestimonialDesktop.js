@@ -29,7 +29,7 @@ function TestimonialDesktop() {
 								</div>
 							</div>
 							<div className="face back-face">
-								<span className="fas fa-quote-left"></span>
+								<span className="fa fa-quote-left"></span>
 								<div className="testimonial">
 									Byliśmy u Pani Klaudi na szkoleniu z
 									pieskiem. To świetna sprawa, właścieciel
@@ -38,7 +38,7 @@ function TestimonialDesktop() {
 									Polecam kążdemu kto chce wiedzieć wiecej co
 									chodzi po głowie jego pupilowi.
 								</div>
-								<span className="fas fa-quote-right"></span>
+								<span className="fa fa-quote-right"></span>
 							</div>
 						</div>
 					</div>
@@ -60,14 +60,14 @@ function TestimonialDesktop() {
 								</div>
 							</div>
 							<div className="face back-face">
-								<span className="fas fa-quote-left"></span>
+								<span className="fa fa-quote-left"></span>
 								<div className="testimonial">
 									Pani Dorota jako osoba, która juz od paru
 									lat pracuje z psami może pochwalić się
 									doświadczeniem i wie co jest dobre dla
 									konkretnego psa!
 								</div>
-								<span className="fas fa-quote-right"></span>
+								<span className="fa fa-quote-right"></span>
 							</div>
 						</div>
 					</div>
@@ -89,13 +89,13 @@ function TestimonialDesktop() {
 								</div>
 							</div>
 							<div className="face back-face">
-								<span className="fas fa-quote-left"></span>
+								<span className="fa fa-quote-left"></span>
 								<div className="testimonial">
 									Z czystym sercem polecam, pies zaczął
 									słuchać! Pani Klaudia ma mega super
 									podejscie!
 								</div>
-								<span className="fas fa-quote-right"></span>
+								<span className="fa fa-quote-right"></span>
 							</div>
 						</div>
 					</div>

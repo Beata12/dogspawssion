@@ -18,10 +18,10 @@ function NthOnlineBehCons() {
 						/>
 					</div>
 					<div className="col-lg-8 d-flex align-items-center">
-						<p>
-							<strong>
+						<div>
+							<p className="head-txt text-center">
 								Kolejna konsultacja behawioralna (online)
-							</strong>
+							</p>
 							<br />
 							Konsultacje odbywają się w miejscu wyznaczonym przez
 							organizatora i trwają zwykle około godzinę. Polegają
@@ -29,7 +29,7 @@ function NthOnlineBehCons() {
 							trakcie konsultacji opiekunowie dostaną informację
 							zwrotną dotyczącą postępow w pracy z psem oraz
 							ewentualne uwagi.
-						</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -39,15 +39,13 @@ function NthOnlineBehCons() {
 				data-aos-delay="100"
 				data-aos-duration="2000"
 			>
-				<div>
-					<div className="price-paw">
-						<img
-							className="img-price"
-							src={require("./photo/dogsPaw.jpg")}
-							alt={"Add more descriptive alt"}
-						/>
-						<p className="paw-txt">90 złotych</p>
-					</div>
+				<div className="bonePrice">
+					<img
+						className="boneImg"
+						src={require("./photo/bone2.jpg")}
+						alt={"Add more descriptive alt"}
+					/>
+					<div className="boneText">90 złotych</div>
 				</div>
 			</div>
 		</div>

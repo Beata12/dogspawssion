@@ -1,6 +1,6 @@
 .ig {
-	width: 35px;
-	height: 35px;
+	width: 35px !important;
+	height: 35px !important;
 	background: #f09433;
 	border-radius: 50%;
 	background: -moz-linear-gradient(

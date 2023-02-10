@@ -3,7 +3,7 @@ import React from "react";
 function AdditionalsOffert() {
 	return (
 		<div className="row konsultacje">
-			<div className="col-lg-9 text-beh">
+			<div className="col-lg-11 text-beh">
 				<div
 					className="row"
 					data-aos="flip-right"

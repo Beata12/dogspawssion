@@ -71,11 +71,17 @@
 	width: 500px;
 }
 .boneImg {
-	width: 300px;
+	width: 250px;
 }
 .boneText {
 	position: absolute;
-	left: 20%;
+	left: 17%;
+	top: 40%;
+}
+
+.boneText2 {
+	position: absolute;
+	left: 15%;
 	top: 40%;
 }
 

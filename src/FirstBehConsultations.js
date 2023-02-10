@@ -48,23 +48,13 @@ function FirstBehConsultations() {
 				</div>
 			</div>
 			<div className="container-box-2 col-lg-3" data-aos="fade-right">
-				{/* <div>
-					<div className="pawPrice">
-						<img
-							className="img-price"
-							src={require("./photo/bone.jpg")}
-							alt={"Add more descriptive alt"}
-						/>
-						<p className="paw-text">150 zł</p>
-					</div>
-				</div> */}
-				<div class="bonePrice">
+				<div className="bonePrice">
 					<img
 						className="boneImg"
 						src={require("./photo/bone.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
-					<div class="boneText">150 złotych</div>
+					<div className="boneText">150 złotych</div>
 				</div>
 			</div>
 		</div>

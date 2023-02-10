@@ -3,23 +3,21 @@ import React from "react";
 function Footer() {
 	return (
 		<footer className="text-center py-5" id="contact">
-			<div class="container">
+			<div className="container">
 				<div>
-					<h1>Connect with me via</h1>
+					<h1>Skontaktuj się ze mną</h1>
+
 					<div className="">
-						<div className="ig">
-							<a
-								className="social-icon col-lg-4"
-								href="https://www.instagram.com/dogspawssion/"
-								target="blank"
-							>
-								<i className="fa fa-instagram instagram"></i>
-							</a>
-						</div>
-						<div className="">gmail.com</div>
+						<ul>
+							<li className="head-txt">
+								Klaudia.marek.11@gmail.com
+							</li>
+							<li className="head-txt">790-592-460</li>
+						</ul>
 					</div>
+
 					<h1>
-						Wypełnij formularz i umówimy się na nasze pierwsze
+						Wypełnij formularz i umówmy się na nasze pierwsze
 						spotkanie:
 					</h1>
 					<div className="">

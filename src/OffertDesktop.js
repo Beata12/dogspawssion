@@ -16,21 +16,6 @@ function OffertDesktop() {
 		setElemToDisplay(elemToDisplay === displayNr ? 0 : displayNr);
 	};
 
-	// const [elemToDisplay2, setElemToDisplay2] = useState(0);
-	// const handleElementToDisplay2 = (displayNr2) => {
-	// 	setElemToDisplay2(elemToDisplay2 === displayNr2 ? 0 : displayNr2);
-	// };
-
-	// const [elemToDisplay3, setElemToDisplay3] = useState(0);
-	// const handleElementToDisplay3 = (displayNr3) => {
-	// 	setElemToDisplay3(elemToDisplay3 === displayNr3 ? 0 : displayNr3);
-	// };
-
-	// const [elemToDisplay4, setElemToDisplay4] = useState(0);
-	// const handleElementToDisplay4 = (displayNr4) => {
-	// 	setElemToDisplay4(elemToDisplay4 === displayNr4 ? 0 : displayNr4);
-	// };
-
 	return (
 		<div
 			className="offert-container-desktop"
@@ -77,7 +62,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(2)}
 								>
-									{elemToDisplay ? "Mniej" : "Więcej"}
+									Więcej
 								</button>
 							</div>
 							<div></div>
@@ -96,7 +81,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(3)}
 								>
-									{elemToDisplay ? "Mniej" : "Więcej"}
+									Więcej
 								</button>
 							</div>
 						</div>
@@ -114,7 +99,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(4)}
 								>
-									{elemToDisplay ? "Mniej" : "Więcej"}
+									Więcej
 								</button>
 							</div>
 						</div>

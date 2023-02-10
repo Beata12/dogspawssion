@@ -23,31 +23,34 @@ function ObedienceBasic() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 txt-align">
-						<p className="head-txt">
-							Indywidualne Szkolenie podstawowe
+					<div className="col-lg-8 d-flex align-items-center">
+						<div>
+							<p className="head-txt text-center">
+								Indywidualne Szkolenie podstawowe
+								<br />
+								Podstawy posłuszeństwa <br />
+								Od 6 miesiąca (10 spotkań)
+							</p>
 							<br />
-							Podstawy posłuszeństwa <br />
-							Od 6 miesiąca (10 spotkań):
-						</p>
-						<p>
 							Szkolenie przeznaczone jest dla psów powyżej 6
 							miesiąca życia. Szkolenie składa się z 10 spotkań.
 							Jest możliwość uczestnictwa w pojedynczych
-							zajęciach. Psy muszą być zaszczepione.
-						</p>
+							zajęciach. <br /> Psy muszą być zaszczepione.
+							<br />
+							Psy muszą być zaszczepione.
+						</div>
 					</div>
 				</div>
 			</div>
 			<div className="container-box-2 col-lg-2" data-aos="fade-left">
 				<div>
-					<div className="price-paw">
+					<div className="bonePrice">
 						<img
-							className="img-price"
-							src={require("./photo/dogsPaw.jpg")}
+							className="boneImg"
+							src={require("./photo/bone2.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
-						<p className="paw-txt">600/70 złotych</p>
+						<div className="boneText2">600/70 złotych</div>
 					</div>
 				</div>
 			</div>

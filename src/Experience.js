@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { Collapse } from "react-collapse";
-import MoreExperience from "./MoreExperience";
+import React from "react";
 
 function Experience({ header }) {
 	return (
