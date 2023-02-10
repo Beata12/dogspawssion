@@ -3,10 +3,6 @@ import { Collapse } from "react-collapse";
 import MoreExperience from "./MoreExperience";
 
 function Experience({ header }) {
-	const [elemToDisplay, setElemToDisplay] = useState(0);
-	const handleElementToDisplay = (displayNr) => {
-		setElemToDisplay(elemToDisplay === displayNr ? 0 : displayNr);
-	};
 	return (
 		<div>
 			<h1 className="text-lg-start mb-4 text-margin-top">{header}</h1>
@@ -62,26 +58,6 @@ function Experience({ header }) {
 					<span className="">Nr licencji: 503/ZOOP/PAZIA/GW/22</span>
 				</div>
 			</div>
-			{/* <div className="">
-				<div className="">
-					<h3 className="">
-						Inne moje szkolenia, webinary i warsztaty
-					</h3>
-				</div>
-				<div>
-					<button
-						className="offert-btn btn btn-light"
-						onClick={() => handleElementToDisplay(1)}
-					>
-						{elemToDisplay ? "Mniej" : "Więcej"}
-					</button>
-				</div>
-			</div> */}
-			<Collapse isOpened={elemToDisplay === 1}>
-				<div className="container offert-container" id="behawioryzm">
-					<MoreExperience />
-				</div>
-			</Collapse>
 		</div>
 	);
 }

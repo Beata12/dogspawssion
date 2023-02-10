@@ -12,6 +12,11 @@ function IntroductionDesktop() {
 		if (elemToDisplay1 === displayNr);
 		else setElemToDisplay(displayNr);
 	};
+
+	const [elemToDisplay5, setElemToDisplay5] = useState(0);
+	const handleElementToDisplay5 = (displayNr5) => {
+		setElemToDisplay5(elemToDisplay5 === displayNr5 ? 0 : displayNr5);
+	};
 	return (
 		<div
 			className="introduction introduction-desktop container"
@@ -82,9 +87,28 @@ function IntroductionDesktop() {
 										alt={"Add more descriptive alt"}
 									/>
 								</div>
-								<div>
-									<MoreExperience />
+								<div className="container">
+									<div className="d-flex justify-content-center">
+										<button
+											className="offert-btn btn btn-light btn-font-size"
+											onClick={() =>
+												handleElementToDisplay5(1)
+											}
+										>
+											{elemToDisplay5
+												? "Mniej"
+												: "Inne szkolenia, webinary i warsztaty"}
+										</button>
+									</div>
 								</div>
+								<Collapse isOpened={elemToDisplay5 === 1}>
+									<div
+										className="container offert-container"
+										id="behawioryzm"
+									>
+										<MoreExperience />
+									</div>
+								</Collapse>
 							</div>
 						</div>
 					</div>

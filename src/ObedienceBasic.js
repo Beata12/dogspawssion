@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import { Collapse } from "react-collapse";
+import ObedienceMore from "./ObedienceMore";
 
 function ObedienceBasic() {
+	const [elemToDisplay, setElemToDisplay] = useState(0);
+	const handleElementToDisplay = (displayNr) => {
+		setElemToDisplay(elemToDisplay === displayNr ? 0 : displayNr);
+	};
 	return (
 		<div className="row konsultacje">
 			<div
@@ -45,6 +51,21 @@ function ObedienceBasic() {
 					</div>
 				</div>
 			</div>
+			<div className="container btnKinderMore">
+				<div className="d-flex justify-content-center">
+					<button
+						className="offert-btn btn btn-light btn-font-size"
+						onClick={() => handleElementToDisplay(1)}
+					>
+						{elemToDisplay ? "Mniej" : "Więcej	"}
+					</button>
+				</div>
+			</div>
+			<Collapse isOpened={elemToDisplay === 1}>
+				<div className="container offert-container" id="behawioryzm">
+					<ObedienceMore />
+				</div>
+			</Collapse>
 		</div>
 	);
 }

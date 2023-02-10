@@ -111,6 +111,16 @@ body {
 	margin-top: 40px;
 }
 
+.scroll-bar {
+	height: 220px;
+	max-height: 100%;
+	overflow-y: auto;
+}
+
+.btn-font-size {
+	font-size: 20px !important;
+}
+
 @media only screen and (max-width: 768px) {
 	.introduction-mobile {
 		display: block;

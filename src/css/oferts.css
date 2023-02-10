@@ -66,9 +66,17 @@
 	width: 250px;
 }
 
-.price-paw {
-	margin: 3%;
+.bonePrice {
 	position: relative;
+	width: 500px;
+}
+.boneImg {
+	width: 300px;
+}
+.boneText {
+	position: absolute;
+	left: 20%;
+	top: 40%;
 }
 
 .paw-txt {
@@ -90,6 +98,14 @@
 .offert-btn {
 	margin-top: 20px;
 	border: 1px solid rgb(107, 112, 119) !important;
+}
+
+.offert-container-desktop {
+	margin-top: 40px;
+}
+
+.btnKinderMore {
+	margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
