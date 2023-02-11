@@ -35,9 +35,8 @@ function OffertMobile() {
 		>
 			<div className="container">
 				<div className="offer-margin">
-					<h1>OFERTA</h1>
+					<h1 className="offert-header fw-bold">OFERTA</h1>
 				</div>
-
 				<div className="beh-pic" id="div-beh-mobile">
 					<div>
 						<img

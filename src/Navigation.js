@@ -9,14 +9,14 @@ function Navigation() {
 			data-aos-duration="1000"
 		>
 			<div className="container px-5 line-height">
-				<a className="ms-4" href="#page-top">
+				<a className="ms-4 " href="#page-top">
 					<img
 						src={require("./photo/logo.png")}
 						className={"logo-size"}
 						alt={"Logo"}
 					/>
 				</a>
-				<button
+				{/* <<button
 					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
@@ -27,7 +27,8 @@ function Navigation() {
 				>
 					Menu
 					<i className="bi-list"></i>
-				</button>
+				</button>> */}
+
 				<div className="collapse navbar-collapse" id="navbarResponsive">
 					<ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
 						<li className="nav-item">

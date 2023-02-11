@@ -148,6 +148,21 @@ body {
 		text-align: center;
 	}
 
-	.intro-btn {
+	.offert-btn {
+		width: 20% !important;
+		margin-bottom: 10px;
+	}
+
+	.introHead {
+		margin-top: 10px !important;
+		font-family: "Patrick Hand", cursive;
+	}
+
+	.intro-txt-info {
+		margin: 0 20px 0;
+	}
+
+	.offert-btn-mbl {
+		width: 40% !important;
 	}
 }

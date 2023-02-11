@@ -21,14 +21,14 @@ function Footer() {
 							</div>
 							<CopyToClipboard text="790-592-460">
 								<i
-									class="fa fa-phone kontact-size fa-3x"
+									className="fa fa-phone kontact-size fa-3x"
 									title="skopiuj numer telefonu"
 								></i>
 							</CopyToClipboard>
 
 							<CopyToClipboard text="klaudiamarek11@gmail.com">
 								<i
-									class="fa fa-envelope kontact-size fa-3x"
+									className="fa fa-envelope kontact-size fa-3x"
 									title="skopiuj e-mail"
 								></i>
 							</CopyToClipboard>
