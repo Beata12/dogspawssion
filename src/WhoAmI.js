@@ -3,13 +3,13 @@ function WhoAmI({ header }) {
 	return (
 		<div>
 			<h1 className="text-lg-start ">{header}</h1>
-			<p>
+			<p className="textAbout">
 				Hej, nazywam się Klaudia i jestem certyfikowanym psim trenerem i
-				behawiorystą oraz petsitterem a także dogoterapeutą. Stale
+				behawiorystą oraz petsitterem, a także dogoterapeutą. Stale
 				podnoszę swoje kwalifikacje, biorąc udział w kursach i
 				webinarach. Swoją przyszłość wiążę ze zwierzętami. Chce pomagać
-				psom oraz ich opiekunom oraz szerzyć wiedzę o prawidłowym ich
-				karmieniu, trenowaniu oraz, przede wszystkim wychowaniu.
+				psom oraz ich opiekunom i szerzyć wiedzę o prawidłowym ich
+				karmieniu, trenowaniu, a przede wszystkim wychowaniu.
 				<br />
 				<br />
 				Pragnę aby wszystkie psy oraz ich opiekunowie byli szczęśliwi.

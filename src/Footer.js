@@ -12,10 +12,10 @@ function Footer() {
 						<div>
 							<div>
 								<h3 className="footer-text">
-									Coś jest nie jasnę, masz jakieś wątpliwości
-									lub pytania? <br /> Kliknij na poniższe
-									ikony, skopiuj mój numer/e-mail. <br />
-									Skontaktuj się ze mną, a ja wszystko Ci
+									Masz jakieś wątpliwości lub pytania? <br />
+									Kliknij na poniższe ikony, skopiuj mój
+									numer/e-mail. <br />
+									Skontaktuj się ze mną, a ja wszystko
 									wytłumaczę!
 								</h3>
 							</div>
@@ -26,7 +26,7 @@ function Footer() {
 								></i>
 							</CopyToClipboard>
 
-							<CopyToClipboard text="klaudia.marek.11@gmail.com">
+							<CopyToClipboard text="klaudiamarek11@gmail.com">
 								<i
 									class="fa fa-envelope kontact-size fa-3x"
 									title="skopiuj e-mail"

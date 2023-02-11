@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 body {
 	overflow-x: hidden;
 }
@@ -57,11 +59,12 @@ body {
 	height: 10%;
 	margin: 15px;
 	padding: 10px;
-	font-size: 25px;
+	font-size: 28px;
 	border: 3px solid #787075;
 	background-color: #787075;
 	color: white;
 	text-align: center; /* text-indent: -9999px; */
+	font-family: "Patrick Hand", cursive;
 }
 
 .div1:hover,

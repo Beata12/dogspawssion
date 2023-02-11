@@ -36,8 +36,6 @@ function ObedienceBasic() {
 							miesiąca życia. Szkolenie składa się z 10 spotkań.
 							Jest możliwość uczestnictwa w pojedynczych
 							zajęciach. <br /> Psy muszą być zaszczepione.
-							<br />
-							Psy muszą być zaszczepione.
 						</div>
 					</div>
 				</div>

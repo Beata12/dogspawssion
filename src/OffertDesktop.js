@@ -26,7 +26,7 @@ function OffertDesktop() {
 		>
 			<div className="container">
 				<div>
-					<h1>OFERTA</h1>
+					<h1 className="offert-text font-weight-bold">OFERTA</h1>
 				</div>
 				<div className="container oferts">
 					<div className="row">
