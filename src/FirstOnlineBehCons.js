@@ -44,12 +44,17 @@ function FirstOnlineBehCons() {
 					</div>
 				</div>
 			</div>
-			<div className="container-box-2 col-lg-3" data-aos="fade-left">
+			<div
+				className="container-box-2 col-lg-3"
+				data-aos="fade-left"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<div>
 					<div className="bonePrice">
 						<img
 							className="boneImg"
-							src={require("./photo/bone2.jpg")}
+							src={require("./photo/bone.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
 						<div className="boneText">100 złotych</div>

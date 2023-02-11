@@ -47,7 +47,12 @@ function FirstBehConsultations() {
 					</div>
 				</div>
 			</div>
-			<div className="container-box-2 col-lg-3" data-aos="fade-right">
+			<div
+				className="container-box-2 col-lg-3"
+				data-aos="fade-right"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<div className="bonePrice">
 					<img
 						className="boneImg"

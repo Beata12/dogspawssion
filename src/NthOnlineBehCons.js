@@ -42,7 +42,7 @@ function NthOnlineBehCons() {
 				<div className="bonePrice">
 					<img
 						className="boneImg"
-						src={require("./photo/bone2.jpg")}
+						src={require("./photo/bone.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 					<div className="boneText">90 złotych</div>

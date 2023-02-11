@@ -7,6 +7,7 @@ import "./css/nav.css";
 import "./css/oferts.css";
 import "./css/opinieOMnie.css";
 import "./css/styles.css";
+import "./css/footer.css";
 import "./css/testim.css";
 import "./css/tlo.css";
 import "aos/dist/aos.css";

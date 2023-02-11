@@ -43,7 +43,7 @@ function NthBehConsultation() {
 				<div className="bonePrice">
 					<img
 						className="boneImg"
-						src={require("./photo/bone2.jpg")}
+						src={require("./photo/bone.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 					<div className="boneText">120 złotych</div>

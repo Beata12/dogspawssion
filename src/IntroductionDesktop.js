@@ -60,7 +60,7 @@ function IntroductionDesktop() {
 								</div>
 								<div className="col-lg-4 d-flex justify-content-center">
 									<img
-										className="about-photo photo1"
+										className="photo1"
 										src={require("./photo/aboutMe.jpg")}
 										alt={"Add more descriptive alt"}
 									/>

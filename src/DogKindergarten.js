@@ -39,19 +39,29 @@ function DogKindergarten() {
 					</div>
 				</div>
 			</div>
-			<div className="container-box-2 col-lg-2" data-aos="fade-right">
+			<div
+				className="container-box-2 col-lg-2"
+				data-aos="fade-right"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<div>
 					<div className="bonePrice">
 						<img
 							className="boneImg"
-							src={require("./photo/bone2.jpg")}
+							src={require("./photo/bone.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
 						<div className="boneText2">450/50 złotych</div>
 					</div>
 				</div>
 			</div>
-			<div className="container btnKinderMore">
+			<div
+				className="container btnKinderMore "
+				data-aos="flip-left"
+				data-aos-delay="100"
+				data-aos-duration="2000"
+			>
 				<div className="d-flex justify-content-center">
 					<button
 						className="offert-btn btn btn-light btn-font-size"
