@@ -3,7 +3,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function Footer() {
 	return (
-		<footer className="text-center py-5" id="contact">
+		<footer className="text-center py-3" id="contact">
 			<div className="container footerBox">
 				<div>
 					<h1 className="footer-contact">kontakt</h1>

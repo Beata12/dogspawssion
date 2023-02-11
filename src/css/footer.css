@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 
 .footerBox {
 	border: 4px solid rgba(94, 104, 121, 0.3);
@@ -33,4 +31,10 @@
 .footer-text {
 	font-family: cursive;
 	margin: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.text-center {
+		padding: 20px;
+	}
 }

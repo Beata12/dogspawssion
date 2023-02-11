@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 .what-they-think {
 	display: flex;
 	margin-bottom: 50px;
 	justify-content: center;
+	font-family: "Patrick Hand", cursive;
 }
 
 .testimonial {
@@ -107,7 +110,12 @@
 	display: none;
 }
 
-@media only screen and (max-width: 768px) {
+.name-opinion {
+	font-family: "Patrick Hand", cursive;
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
 	.container-mobile-testimonial {
 		display: block;
 	}
@@ -120,8 +128,9 @@
 	}
 
 	.think-text {
-		font-size: 25px;
+		font-size: 35px;
 		text-align: center;
+		font-family: "Patrick Hand", cursive;
 	}
 
 	.profile {
@@ -146,12 +155,13 @@
 
 	.testimonial {
 		text-align: center;
+		padding: 20px;
 	}
 
 	.testim-name {
-		align-items: center;
-		padding: 10%;
-		padding-top: 20%;
+		padding: 20px;
+		font-family: "Patrick Hand", cursive;
+		font-size: 30px;
 	}
 }
 

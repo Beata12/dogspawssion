@@ -5,7 +5,6 @@ import "./css/introduction.css";
 import "./css/kons-behawioralne.css";
 import "./css/nav.css";
 import "./css/oferts.css";
-import "./css/opinieOMnie.css";
 import "./css/styles.css";
 import "./css/footer.css";
 import "./css/testim.css";
