@@ -27,108 +27,110 @@ function OffertMobile() {
 	};
 
 	return (
-		<div
-			className="offert-container-mobile"
-			id="offer-mobile"
-			// data-aos="fade-up"
-			// data-aos-duration="1000"
-		>
-			<div className="container">
-				<div className="offer-margin">
-					<h1 className="offert-header fw-bold">OFERTA</h1>
-				</div>
-				<div className="beh-pic" id="div-beh-mobile">
-					<div>
-						<img
-							className="beh-img"
-							src={require("./photo/dog-beh.jpg")}
-							alt={"Add more descriptive alt"}
-						/>
+		<div id="offert">
+			<div
+				className="offert-container-mobile"
+				id="offer-mobile"
+				// data-aos="fade-up"
+				// data-aos-duration="1000"
+			>
+				<div className="container">
+					<div className="offer-margin">
+						<h1 className="offert-header fw-bold">OFERTA</h1>
 					</div>
-					<div className="ofert">
-						<div>KONSULTACJE BEHAWIORALNE</div>
+					<div className="beh-pic" id="div-beh-mobile">
 						<div>
-							<button
-								className="offert-btn btn btn-light"
-								onClick={() => handleElementToDisplay(1)}
-							>
-								{elemToDisplay ? "Mniej" : "Więcej"}
-							</button>
+							<img
+								className="beh-img"
+								src={require("./photo/dog-beh.jpg")}
+								alt={"Add more descriptive alt"}
+							/>
+						</div>
+						<div className="ofert">
+							<div>KONSULTACJE BEHAWIORALNE</div>
+							<div>
+								<button
+									className="offert-btn btn btn-light"
+									onClick={() => handleElementToDisplay(1)}
+								>
+									{elemToDisplay ? "Mniej" : "Więcej"}
+								</button>
+							</div>
 						</div>
 					</div>
-				</div>
-				<Collapse isOpened={elemToDisplay === 1}>
-					<BehConsultationMobile />
-				</Collapse>
-				<div className="beh-pic" id="div-ind-mobile">
-					<div>
-						<img
-							className="beh-img"
-							src={require("./photo/dog-beh.jpg")}
-							alt={"Add more descriptive alt"}
-						/>
-					</div>
-					<div className="ofert">
-						<div>SZKOLENIA</div>
+					<Collapse isOpened={elemToDisplay === 1}>
+						<BehConsultationMobile />
+					</Collapse>
+					<div className="beh-pic" id="div-ind-mobile">
 						<div>
-							<button
-								className="offert-btn btn btn-light"
-								onClick={() => handleElementToDisplay2(1)}
-							>
-								{elemToDisplay2 ? "Mniej" : "Więcej"}
-							</button>
+							<img
+								className="beh-img"
+								src={require("./photo/dog-beh.jpg")}
+								alt={"Add more descriptive alt"}
+							/>
+						</div>
+						<div className="ofert">
+							<div>SZKOLENIA</div>
+							<div>
+								<button
+									className="offert-btn btn btn-light"
+									onClick={() => handleElementToDisplay2(1)}
+								>
+									{elemToDisplay2 ? "Mniej" : "Więcej"}
+								</button>
+							</div>
 						</div>
 					</div>
-				</div>
-				<Collapse isOpened={elemToDisplay2 === 1}>
-					<TrainingMobile />
-				</Collapse>
-				<div className="beh-pic" id="div-szk-mobile">
-					<div>
-						<img
-							className="beh-img"
-							src={require("./photo/dog-beh.jpg")}
-							alt={"Add more descriptive alt"}
-						/>
-					</div>
-					<div className="ofert">
-						<div>SPACERY SOCJALIZACYJNE</div>
+					<Collapse isOpened={elemToDisplay2 === 1}>
+						<TrainingMobile />
+					</Collapse>
+					<div className="beh-pic" id="div-szk-mobile">
 						<div>
-							<button
-								className="offert-btn btn btn-light"
-								onClick={() => handleElementToDisplay3(1)}
-							>
-								{elemToDisplay3 ? "Mniej" : "Więcej"}
-							</button>
+							<img
+								className="beh-img"
+								src={require("./photo/dog-beh.jpg")}
+								alt={"Add more descriptive alt"}
+							/>
+						</div>
+						<div className="ofert">
+							<div>SPACERY SOCJALIZACYJNE</div>
+							<div>
+								<button
+									className="offert-btn btn btn-light"
+									onClick={() => handleElementToDisplay3(1)}
+								>
+									{elemToDisplay3 ? "Mniej" : "Więcej"}
+								</button>
+							</div>
 						</div>
 					</div>
-				</div>
-				<Collapse isOpened={elemToDisplay3 === 1}>
-					<SocjalizationWalksMobile />
-				</Collapse>
-				<div className="beh-pic" id="div-additionals-mobile">
-					<div>
-						<img
-							className="beh-img"
-							src={require("./photo/dog-beh.jpg")}
-							alt={"Add more descriptive alt"}
-						/>
-					</div>
-					<div className="ofert">
-						<div>Dodatkowe usługi</div>
+					<Collapse isOpened={elemToDisplay3 === 1}>
+						<SocjalizationWalksMobile />
+					</Collapse>
+					<div className="beh-pic" id="div-additionals-mobile">
 						<div>
-							<button
-								className="offert-btn btn btn-light"
-								onClick={() => handleElementToDisplay4(1)}
-							>
-								{elemToDisplay4 ? "Mniej" : "Więcej"}
-							</button>
+							<img
+								className="beh-img"
+								src={require("./photo/dog-beh.jpg")}
+								alt={"Add more descriptive alt"}
+							/>
+						</div>
+						<div className="ofert">
+							<div>Dodatkowe usługi</div>
+							<div>
+								<button
+									className="offert-btn btn btn-light"
+									onClick={() => handleElementToDisplay4(1)}
+								>
+									{elemToDisplay4 ? "Mniej" : "Więcej"}
+								</button>
+							</div>
 						</div>
 					</div>
+					<Collapse isOpened={elemToDisplay4 === 1}>
+						<AdditionalsOffertMobile />
+					</Collapse>
 				</div>
-				<Collapse isOpened={elemToDisplay4 === 1}>
-					<AdditionalsOffertMobile />
-				</Collapse>
 			</div>
 		</div>
 	);

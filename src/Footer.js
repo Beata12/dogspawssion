@@ -52,13 +52,6 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<div className="container px-5">
-				<div className="text-white-50 small">
-					<div className="mb-2">
-						&copy; Your Website 2022. All Rights Reserved.
-					</div>
-				</div>
-			</div>
 		</footer>
 	);
 }

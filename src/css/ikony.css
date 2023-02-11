@@ -1,6 +1,6 @@
 .ig {
-	width: 35px !important;
-	height: 35px !important;
+	width: 35px;
+	height: 35px;
 	background: #f09433;
 	border-radius: 50%;
 	background: -moz-linear-gradient(
@@ -35,6 +35,11 @@
 
 .instagram {
 	color: white;
-	margin-left: 6px;
-	margin-top: 4px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.instagram {
+		color: white;
+		margin-left: 6px;
+	}
 }

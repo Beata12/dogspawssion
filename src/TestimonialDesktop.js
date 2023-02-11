@@ -24,7 +24,7 @@ function TestimonialDesktop() {
 									className="profile"
 									alt={"Add more descriptive alt"}
 								/>
-								<div className="text-uppercase name-opinion">
+								<div className="text-uppercase name-opinion	">
 									Karolina
 								</div>
 							</div>

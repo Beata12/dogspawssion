@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-.background-color {
-	background-color: rgba(142, 142, 166, 0.405);
+.bcg-nav {
 	height: 8%;
+	background: linear-gradient(
+		135deg,
+		rgb(166, 175, 194) 50%,
+		rgb(187, 210, 229),
+		rgb(184, 211, 240)
+	);
 }
 
 .nav-color {
@@ -27,4 +32,14 @@
 
 .logo-size {
 	height: 42px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.bcg-nav {
+		background: rgb(154, 170, 196);
+	}
+
+	.logo-size {
+		height: 50px;
+	}
 }

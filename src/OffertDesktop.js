@@ -19,7 +19,7 @@ function OffertDesktop() {
 	return (
 		<div
 			className="offert-container-desktop"
-			id="ofert"
+			id="offert"
 			data-aos="fade-up"
 			data-aos-delay="100"
 			data-aos-duration="2000"
