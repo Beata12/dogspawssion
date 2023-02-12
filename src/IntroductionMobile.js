@@ -172,9 +172,7 @@ export function IntroductionMobile() {
 					</div>
 
 					<div className="intro-txt">
-						<h1 className="introHead fw-bold">
-							DLACZEGO DOG'S PAWSSION?
-						</h1>
+						<h1 className="introHead fw-bold">DOGSPAWSSION</h1>
 						<Collapse isOpened={elemToDisplay3 === 1}>
 							<div className="intro-txt-info">
 								Od dziecka fascynowały mnie zwierzęta. Czułam

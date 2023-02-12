@@ -11,9 +11,9 @@ function WhyMe({ header }) {
 				dużo doświadczenia, które przydaje mi się teraz, w pracy z
 				klientami i ich czworonogami.
 				<br />
-				Pracując z psami wykorzystuje metody pozytywne. Sprawia to że
+				Pracując z psami wykorzystuje metody pozytywne. Sprawia to, że
 				trening dla psa jest przyjemnością, a nie przykrym obowiązkiem.
-				Poprzez pozytywne podejście do psa zwiększa się również więź
+				Poprzez pozytywne podejście do psa wzmacnia się również więź
 				pomiędzy psem, a jego opiekunem.
 			</p>
 		</div>

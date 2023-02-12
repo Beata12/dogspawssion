@@ -23,9 +23,9 @@ function NthOnlineBehCons() {
 								Kolejna konsultacja behawioralna (online)
 							</p>
 							<br />
-							Konsultacje odbywają się w miejscu wyznaczonym przez
-							organizatora i trwają zwykle około godzinę. Polegają
-							one na wdrożeniu przygotowanych wcześniej zaleceń. W
+							Konsultacje odbywają się online na platformie Zoom i
+							trwają zwykle około godzinę. Polegają one na
+							wdrożeniu przygotowanych wcześniej zaleceń. W
 							trakcie konsultacji opiekunowie dostaną informację
 							zwrotną dotyczącą postępow w pracy z psem oraz
 							ewentualne uwagi.

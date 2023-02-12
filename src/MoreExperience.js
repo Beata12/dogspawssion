@@ -6,7 +6,7 @@ function Experience() {
 			<div>
 				<h5>
 					Stale dokształcam się biorąc udział w licznych webinarach,
-					kursach doszkalających i konferencjach oraz poglębiam wiedzę
+					kursach doszkalających i konferencjach oraz pogłębiam wiedzę
 					pozostając na bieżąco z najnowszymi badaniami, artykułami i
 					literaturą.
 				</h5>

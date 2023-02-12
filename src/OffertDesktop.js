@@ -9,6 +9,7 @@ import ObedienceBasic from "./ObedienceBasic";
 import AdvancedTraining from "./AdvancedTraining";
 import SocjalizationWalks from "./SocjalizationWalks";
 import AdditionalsOffert from "./AdditionalsOffert";
+import Nosework from "./Nosework";
 
 function OffertDesktop() {
 	const [elemToDisplay, setElemToDisplay] = useState(0);
@@ -137,6 +138,7 @@ function OffertDesktop() {
 						id="additionals"
 					>
 						<AdditionalsOffert />
+						<Nosework />
 					</div>
 				</Collapse>
 			</div>

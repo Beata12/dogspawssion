@@ -31,7 +31,7 @@ function IntroductionDesktop() {
 						id="div-about"
 						onClick={() => handleElementToDisplay(1)}
 					>
-						O MNIE?
+						O MNIE
 					</div>
 					<div
 						className="div2"
@@ -45,7 +45,7 @@ function IntroductionDesktop() {
 						id="div-work"
 						onClick={() => handleElementToDisplay(3)}
 					>
-						DLACZEGO DOGSPAWSSION
+						DOGS<strong>PAW</strong>SSION
 					</div>
 				</div>
 				<Collapse isOpened={elemToDisplay1 === 1}>
@@ -55,7 +55,7 @@ function IntroductionDesktop() {
 								<div className="row gx-5 align-items-center">
 									<div className="col-lg-8">
 										<div className="mb-5 mb-lg-0 text-justify">
-											<WhoAmI header={"O MNIE?"} />
+											<WhoAmI header={"O MNIE"} />
 										</div>
 									</div>
 									<div className="col-lg-4 d-flex justify-content-center">
@@ -123,11 +123,7 @@ function IntroductionDesktop() {
 								<div className="row gx-5 align-items-center">
 									<div className="col-lg-8">
 										<div className="mb-5 mb-lg-0 text-justify">
-											<WhyMe
-												header={
-													"DLACZEGO DOGSPAWSSION?"
-												}
-											/>
+											<WhyMe header={"DOGSPAWSSION"} />
 										</div>
 									</div>
 									<div className="col-lg-4 d-flex justify-content-center">

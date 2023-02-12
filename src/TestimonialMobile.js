@@ -4,7 +4,7 @@ function TestimonialMobile() {
 	return (
 		<div className="container-mobile-testimonial">
 			<div>
-				<h1 className="think-text fw-bold">CO INNI O MNIE MYŚLĄ?</h1>
+				<h1 className="think-text fw-bold">CZWORONOŻNI KLIENCI</h1>
 			</div>
 			<div className="testimonial-container">
 				<div
