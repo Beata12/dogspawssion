@@ -52,8 +52,8 @@ function TestimonialDesktop() {
 						<div className="card-transformation">
 							<div className="face front-face">
 								<img
-									src="https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/6/2021/10/shutterstock_1192439101-1-768x512.jpg"
 									className="profile"
+									src={require("./photo/michael2.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 								<div className="text-uppercase name-opinion">
