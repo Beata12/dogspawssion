@@ -20,10 +20,11 @@
 
 .header-background {
 	background-image: url("../photo/totlo3.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat !important;
 	background-attachment: scroll;
 	background-position: center right;
 	background-size: cover;
+
 	/* height: 100vh; */
 }
 

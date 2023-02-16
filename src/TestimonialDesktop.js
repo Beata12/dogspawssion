@@ -83,7 +83,7 @@ function TestimonialDesktop() {
 							<div className="face front-face">
 								<img
 									className="profile"
-									src={require("./photo/aza.jpg")}
+									src={require("./photo/aza2.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 								<div className="text-uppercase name-opinion">

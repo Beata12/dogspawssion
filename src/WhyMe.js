@@ -3,7 +3,7 @@ function WhyMe({ header }) {
 	return (
 		<div>
 			<h1 className="text-lg-start">{header}</h1>
-			<p>
+			<p className="textAbout">
 				Od dziecka fascynowały mnie zwierzęta. Czułam się przy nich
 				szczęśliwa i bezpieczna. Jako nastolatka dużo czasu spędzałam w
 				schronisku dla psów, wyprowadzając psy, bawiąc się z nimi oraz

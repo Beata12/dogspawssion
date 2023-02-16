@@ -2,10 +2,23 @@
 
 body {
 	overflow-x: hidden;
+	border: 10px solid transparent;
+	border-image: linear-gradient(
+		120deg,
+		rgb(166, 175, 194),
+		rgb(187, 210, 229),
+		rgb(184, 211, 240)
+	);
+	border-image-slice: 1;
+	border-radius: 10px;
 }
 
 .about-photo {
 	padding: 5px;
+}
+
+.textAbout {
+	font-size: 22px;
 }
 
 .photo,
