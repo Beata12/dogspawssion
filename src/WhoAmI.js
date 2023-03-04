@@ -2,7 +2,7 @@ import React from "react";
 function WhoAmI({ header }) {
 	return (
 		<div>
-			<h1 className="text-lg-start ">{header}</h1>
+			<h1 className="text-lg-start header-txt">{header}</h1>
 			<p className="textAbout">
 				Hej, nazywam się Klaudia. <br />
 				Jestem certyfikowanym psim trenerem, behawiorystą, petsitterem i

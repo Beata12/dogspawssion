@@ -19,7 +19,6 @@ function Nosework() {
 					</div>
 					<div className="col-lg-8 txt-align">
 						<p className="head-txt">Nosework</p>
-						<p>Nosework:</p>
 						<ul>
 							<li>Informacje wkrótce </li>
 						</ul>

@@ -15,7 +15,6 @@ function AdditionalsOffertMobile() {
 					<p>Dodatkowe usługi</p>
 				</div>
 				<div>
-					<p className="txt-offert-mobile">Dodatkowe usługi:</p>
 					<ul>
 						<li>
 							Porady w wyborze odpowiedniego żywienia i

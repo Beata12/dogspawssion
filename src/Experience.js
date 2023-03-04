@@ -3,7 +3,9 @@ import React from "react";
 function Experience({ header }) {
 	return (
 		<div>
-			<h1 className="text-lg-start mb-4 text-margin-top">{header}</h1>
+			<h1 className="text-lg-start mb-4 text-margin-top header-txt">
+				{header}
+			</h1>
 			<div className="d-flex flex-column flex-md-row justify-content-between mb-1">
 				<div className="flex-grow-1">
 					<h3 className="mb-0">Kynoterapeuta(Dogoterapeuta)</h3>

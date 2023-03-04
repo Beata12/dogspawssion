@@ -19,7 +19,7 @@ function AdditionalsOffert() {
 					</div>
 					<div className="col-lg-8 txt-align">
 						<p className="head-txt">Dodatkowe usługi</p>
-						<p>Dodatkowe usługi:</p>
+
 						<ul>
 							<li>
 								Porady w wyborze odpowiedniego żywienia i
