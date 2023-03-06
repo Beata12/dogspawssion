@@ -47,7 +47,9 @@ function OffertMobile() {
 							/>
 						</div>
 						<div className="ofert">
-							<div>KONSULTACJE BEHAWIORALNE</div>
+							<div className="text-uppercase">
+								KONSULTACJE BEHAWIORALNE
+							</div>
 							<div>
 								<button
 									className="offert-btn btn btn-light"
@@ -70,7 +72,7 @@ function OffertMobile() {
 							/>
 						</div>
 						<div className="ofert">
-							<div>SZKOLENIA</div>
+							<div className="text-uppercase">SZKOLENIA</div>
 							<div>
 								<button
 									className="offert-btn btn btn-light"
@@ -93,7 +95,9 @@ function OffertMobile() {
 							/>
 						</div>
 						<div className="ofert">
-							<div>SPACERY SOCJALIZACYJNE</div>
+							<div className="text-uppercase">
+								SPACERY SOCJALIZACYJNE
+							</div>
 							<div>
 								<button
 									className="offert-btn btn btn-light"
@@ -116,7 +120,9 @@ function OffertMobile() {
 							/>
 						</div>
 						<div className="ofert">
-							<div>Dodatkowe usługi</div>
+							<div className="text-uppercase">
+								Dodatkowe usługi
+							</div>
 							<div>
 								<button
 									className="offert-btn btn btn-light"

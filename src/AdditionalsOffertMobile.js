@@ -11,8 +11,8 @@ function AdditionalsOffertMobile() {
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
-				<div className="col-7">
-					<p>Dodatkowe usługi</p>
+				<div className="col-5">
+					<p className="font-bold">Dodatkowe usługi</p>
 				</div>
 				<div>
 					<ul>
@@ -26,6 +26,26 @@ function AdditionalsOffertMobile() {
 						</li>
 						<li>Petsitting</li>
 					</ul>
+				</div>
+			</div>
+			<div className="row konsultacje">
+				<div className="col-5 dog-pic">
+					<img
+						className="dog-mobile"
+						src={require("./photo/pies2.jpg")}
+						alt={"Add more descriptive alt"}
+					/>
+				</div>
+				<div className="col-5">
+					<h2>Nosework</h2>
+					<div
+						class="info-soon"
+						data-aos="zoom-out-down"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+					>
+						Informacje wkrótce...
+					</div>
 				</div>
 			</div>
 		</div>

@@ -48,6 +48,10 @@ h2 {
 	cursor: text;
 }
 
+.font-bold {
+	font-weight: bold;
+}
+
 @media only screen and (max-width: 991px) {
 	.dog {
 		width: 350px;

@@ -29,7 +29,7 @@ function TrainingMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p>
+					<p className="font-bold">
 						Indywidualne Psie przedszkole <br />
 						do 6 miesięcy (10 spotkań)
 					</p>
@@ -71,7 +71,7 @@ function TrainingMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p>
+					<p className="font-bold">
 						Indywidualne Szkolenie podstawowe
 						<br />
 						Podstawy posłuszeństwa <br />
@@ -115,7 +115,7 @@ function TrainingMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p>
+					<p className="font-bold">
 						Indywidualne Szkolenie zaawansowane
 						<br />
 						Po ukońćzeniu podstaw posłuszeństwa (10 spotkań)

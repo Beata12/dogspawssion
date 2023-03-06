@@ -63,7 +63,7 @@ function TestimonialDesktop() {
 							<div className="face back-face">
 								<span className="fa fa-quote-left"></span>
 								<div className="testimonial">
-									Byliśmy tutaj na szkoleniu z Michael.
+									Byliśmy tutaj na szkoleniu z Michaelem.
 									Klaudia świetnie wytłumaczyła jakie błędy
 									popełniamy i jak możemy to poprawić! Bardzo
 									polecamy ją kążdemu kto chce polepszyc

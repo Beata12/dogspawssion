@@ -13,7 +13,7 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p>
+						<p className="font-bold">
 							Pierwsza konsultacja behawioralna
 							<br />
 							(on-site/stacjonarna)
@@ -55,7 +55,7 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p>
+						<p className="font-bold">
 							Kolejna konsultacja behawioralna
 							<br />
 							(on-site/stacjonarna)
@@ -85,7 +85,9 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p>Pierwsza konsultacja behawioralna (online)</p>
+						<p className="font-bold">
+							Pierwsza konsultacja behawioralna (online)
+						</p>
 						<ul>
 							<li>Cana: 100 zł</li>
 						</ul>
@@ -123,7 +125,9 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p>Kolejna konsultacja behawioralna (online)</p>
+						<p className="font-bold">
+							Kolejna konsultacja behawioralna (online)
+						</p>
 						<ul>
 							<li>Cana: 90 zł</li>
 						</ul>

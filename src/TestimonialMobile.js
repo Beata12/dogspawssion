@@ -46,7 +46,7 @@ function TestimonialMobile() {
 						/>
 					</div>
 					<div className="testimonial">
-						Byliśmy tutaj na szkoleniu z Michael. Klaudia świetnie
+						Byliśmy tutaj na szkoleniu z Michaelem. Klaudia świetnie
 						wytłumaczyła jakie błędy popełniamy i jak możemy to
 						poprawić! Bardzo polecamy ją kążdemu kto chce polepszyc
 						dobrobyt swojego psiaka 🙂

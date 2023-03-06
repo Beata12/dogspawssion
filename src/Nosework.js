@@ -19,9 +19,14 @@ function Nosework() {
 					</div>
 					<div className="col-lg-8 txt-align">
 						<p className="head-txt">Nosework</p>
-						<ul>
-							<li>Informacje wkrótce </li>
-						</ul>
+						<div
+							class="d-flex justify-content-center info-soon"
+							data-aos="zoom-out-down"
+							data-aos-delay="100"
+							data-aos-duration="2000"
+						>
+							Informacje wkrótce
+						</div>
 					</div>
 				</div>
 			</div>
