@@ -33,7 +33,28 @@
 	margin: 20px;
 }
 
+.footer-styles {
+	height: 8%;
+	background: linear-gradient(
+		135deg,
+		rgb(166, 175, 194) 47%,
+		rgb(187, 210, 229),
+		rgb(184, 211, 240)
+	);
+}
+
+.mapouter {
+	display: block;
+}
+
+.location-box {
+	padding-bottom: 30px;
+}
+
 @media only screen and (max-width: 1000px) {
+	.mapouter {
+		display: none;
+	}
 	.text-center {
 		padding: 20px;
 	}

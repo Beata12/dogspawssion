@@ -1,69 +1,10 @@
 import React from "react";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function Footer() {
 	return (
-		<footer className="text-center py-3" id="contact">
-			<div className="container footerBox">
-				<div>
-					<h1 className="footer-contact">kontakt</h1>
-					<div className="">
-						<div>
-							<div>
-								<h3 className="footer-text">
-									Masz jakieś wątpliwości lub pytania? <br />
-									Kliknij na poniższe ikony, skopiuj mój
-									numer/e-mail. <br />
-									Skontaktuj się ze mną, a ja wszystko
-									wytłumaczę!
-								</h3>
-							</div>
-							<CopyToClipboard text="790-592-460">
-								<i
-									className="fa fa-phone kontact-size fa-3x"
-									title="skopiuj numer telefonu"
-								></i>
-							</CopyToClipboard>
-
-							<CopyToClipboard text="klaudiamarek11@gmail.com">
-								<i
-									className="fa fa-envelope kontact-size fa-3x"
-									title="skopiuj e-mail"
-								></i>
-							</CopyToClipboard>
-						</div>
-					</div>
-
-					<h3 className="footer-text">
-						Wypełnij formularz i umówmy się <br />
-						na nasze pierwsze spotkanie:
-					</h3>
-					<div className="">
-						<a
-							className=""
-							href="https://docs.google.com/forms/d/1tx2ZppHJzn_NOtAXJ-eHPVW3cd7_jl_J-xoo9Z5Tokk/viewform?fbclid=IwAR31p6VL-_GxTjSt0Ne1vjTVNNRHYcHthiVTvRavT3POGXqAtWZJ02oZCic&edit_requested=true"
-							target="blank"
-						>
-							<button className=" btn-footer btn-lg text-lowercase">
-								Formularz
-							</button>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="mapouter">
-				<div class="gmap_canvas">
-					<iframe
-						width="1080"
-						height="445"
-						id="gmap_canvas"
-						src="https://maps.google.com/maps?q=S%C5%82upsk&t=&z=13&ie=UTF8&iwloc=&output=embed"
-						frameborder="0"
-						scrolling="no"
-						marginheight="0"
-						marginwidth="0"
-					></iframe>
-				</div>
+		<footer className="text-center py-3 " id="contact">
+			<div>
+				<p>Copyright © 2023</p>
 			</div>
 		</footer>
 	);

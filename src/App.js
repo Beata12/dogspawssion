@@ -10,6 +10,8 @@ import TestimonialDesktop from "./TestimonialDesktop";
 import { useEffect } from "react";
 import AOS from "aos";
 import React from "react";
+import Contack from "./Contact";
+import Location from "./Location";
 
 function App() {
 	useEffect(() => {
@@ -32,6 +34,10 @@ function App() {
 			<TestimonialDesktop />
 
 			<TestimonialMobile />
+
+			<Contack />
+
+			<Location />
 
 			<Footer />
 		</div>

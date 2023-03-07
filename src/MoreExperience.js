@@ -4,12 +4,12 @@ function Experience() {
 	return (
 		<div className="scroll-bar">
 			<div>
-				<h5>
+				<p className="intoruction-experience">
 					Stale dokształcam się biorąc udział w licznych webinarach,
 					kursach doszkalających i konferencjach oraz pogłębiam wiedzę
 					pozostając na bieżąco z najnowszymi badaniami, artykułami i
 					literaturą.
-				</h5>
+				</p>
 			</div>
 			<ul>
 				<li className="fw-bold">

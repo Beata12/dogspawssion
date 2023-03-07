@@ -23,6 +23,7 @@ function Navigation() {
 				>
 					<span className="navbar-toggler-icon menu-mbl"></span>
 				</button>
+
 				<div
 					className="collapse navbar-collapse"
 					id="navbarSupportedContent"
@@ -41,6 +42,11 @@ function Navigation() {
 						<li className="nav-item">
 							<a className="me-lg-3 nav-color" href="#contact">
 								Kontakt
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="me-lg-3 nav-color" href="#location">
+								Lokalizacja
 							</a>
 						</li>
 						<li className="nav-item">

@@ -129,9 +129,18 @@
 	font-size: 60px;
 }
 
+.intoruction-experience {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 @media only screen and (max-width: 1201px) {
 	.offert-container-desktop {
 		display: none;
+	}
+
+	.intoruction-experience {
+		font-size: 16px;
 	}
 
 	.offert-container-mobile {

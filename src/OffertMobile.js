@@ -29,6 +29,9 @@ function OffertMobile() {
 	return (
 		<div id="offert">
 			<div
+				data-aos="zoom-in-up"
+				data-aos-delay="200"
+				data-aos-duration="1500"
 				className="offert-container-mobile"
 				id="offer-mobile"
 				// data-aos="fade-up"
@@ -78,7 +81,7 @@ function OffertMobile() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay2(1)}
 								>
-									{elemToDisplay2 ? "Mniej" : "Więcej"}
+									{elemToDisplay3 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 						</div>

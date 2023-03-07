@@ -39,7 +39,7 @@ function AdditionalsOffertMobile() {
 				<div className="col-5">
 					<h2>Nosework</h2>
 					<div
-						class="info-soon"
+						className="info-soon"
 						data-aos="zoom-out-down"
 						data-aos-delay="100"
 						data-aos-duration="2000"
