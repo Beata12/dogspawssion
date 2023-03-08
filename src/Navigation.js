@@ -3,9 +3,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Navigation() {
 	return (
-		<nav className="navbar navbar-expand-lg bcg-nav">
+		<nav className="navbar navbar-expand-lg bcg-nav" id="navigation">
 			<div className="container">
-				<a className="ms-4">
+				<a className="ms-4" href="#navigation">
 					<img
 						src={require("./photo/logo.png")}
 						className={"logo-size"}

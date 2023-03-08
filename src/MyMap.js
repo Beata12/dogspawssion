@@ -1,7 +1,24 @@
 // import React from "react";
-// import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
+// import { Marker, useLoadScript, GoogleMap } from "google-maps-react";
 
-// function MyMap() {
+// export default function MyMap() {
+// 	const { isLoaded } = useLoadScript({
+// 		gogleMapsApiKey: "AIzaSyAKl7km4mU9lHSGqMR-jLYJDB5unXEdxsI",
+// 	});
+// 	if (!isLoaded) return <div>Loading...</div>;
+// 	return <MapG />;
+// }
+
+// function MapG() {
+// 	return (
+// 		<GoogleMap
+// 			zoom={10}
+// 			center={{ lat: 0, lng: -80 }}
+// 			mapContainerClassName=""
+// 		></GoogleMap>
+// 	);
+// }
+
 // 	return (
 // 		<div>
 // 			<Map google={this.props.google} zoom={14}>

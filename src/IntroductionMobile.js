@@ -24,7 +24,7 @@ export function IntroductionMobile() {
 	};
 
 	return (
-		<div id="offert">
+		<div>
 			<div
 				data-aos="zoom-in-up"
 				data-aos-delay="200"

@@ -33,9 +33,6 @@ function OffertMobile() {
 				data-aos-delay="200"
 				data-aos-duration="1500"
 				className="offert-container-mobile"
-				id="offer-mobile"
-				// data-aos="fade-up"
-				// data-aos-duration="1000"
 			>
 				<div className="container">
 					<div className="offer-margin">

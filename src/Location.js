@@ -1,4 +1,5 @@
 import React from "react";
+// import MyMap from "./MyMap";
 
 function Location() {
 	return (
@@ -21,14 +22,15 @@ function Location() {
 			<div className="mapouter">
 				<div className="gmap_canvas">
 					<iframe
+						title="myFrame"
 						width="1080"
 						height="445"
 						id="gmap_canvas"
-						src="https://maps.google.com/maps?q=S%C5%82upsk&t=&z=13&ie=UTF8&iwloc=&output=embed"
-						frameborder="0"
+						src=" https://maps.google.com/maps?q=S%C5%82upsk&t=&z=13&ie=UTF8&iwloc=&output=embed"
+						frameBorder="0"
 						scrolling="no"
-						marginheight="0"
-						marginwidth="0"
+						marginHeight="0"
+						marginWidth="0"
 					></iframe>
 				</div>
 			</div>

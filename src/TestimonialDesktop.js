@@ -67,7 +67,10 @@ function TestimonialDesktop() {
 									Klaudia świetnie wytłumaczyła jakie błędy
 									popełniamy i jak możemy to poprawić! Bardzo
 									polecamy ją kążdemu kto chce polepszyc
-									dobrobyt swojego psiaka 🙂
+									dobrobyt swojego psiaka
+									<span role="img" aria-label="">
+										🙂
+									</span>
 								</div>
 								<span className="fa fa-quote-right"></span>
 							</div>
