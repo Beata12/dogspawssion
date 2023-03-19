@@ -31,7 +31,7 @@ function TrainingMobile() {
 				<div className="col-7">
 					<p className="font-bold">
 						Indywidualne Psie przedszkole <br />
-						do 6 miesięcy (10 spotkań)
+						do 6 miesiąca (10 spotkań)
 					</p>
 					<ul>
 						<li>Cana: 450 zł / 50 zł</li>

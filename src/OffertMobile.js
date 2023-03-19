@@ -42,7 +42,7 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/dog-beh.jpg")}
+								src={require("./photo/aka.jpg")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
@@ -67,7 +67,7 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/dog-beh.jpg")}
+								src={require("./photo/akus.jpg")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
@@ -90,7 +90,7 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/dog-beh.jpg")}
+								src={require("./photo/aka.jpg")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
@@ -115,7 +115,7 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/dog-beh.jpg")}
+								src={require("./photo/akus.jpg")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>

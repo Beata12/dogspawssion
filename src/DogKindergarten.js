@@ -27,7 +27,7 @@ function DogKindergarten() {
 						<div>
 							<p className="head-txt text-center">
 								Indywidualne Psie przedszkole <br />
-								do 6 miesięcy (10 spotkań)
+								do 6 miesiąca (10 spotkań)
 							</p>
 							<br />
 							Szkolenie przeznaczone jest dla szczeniąt w wieku od

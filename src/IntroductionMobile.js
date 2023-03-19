@@ -55,7 +55,7 @@ export function IntroductionMobile() {
 									opiekunowie byli szczęśliwi. Psy doskonale
 									odczytują naszą mowę ciała, nasze gesty oraz
 									emocje. W drugą stronę niestety jest trochę
-									gorzej. Moim zadaniem, jest ukierunkowanie
+									trudniej. Moim zadaniem, jest ukierunkowanie
 									opiekunów na dobrą ścieżkę oraz pokazanie
 									im, że poprzez zrozumienie psiego języka
 									uszanowanie psich potrzeb można stworzyć

@@ -18,7 +18,9 @@ function AdditionalsOffert() {
 						/>
 					</div>
 					<div className="col-lg-8 txt-align">
-						<p className="head-txt">Dodatkowe usługi</p>
+						<p className="head-txt">
+							Dodatkowe usługi (cena ustalana indywidualnie)
+						</p>
 
 						<ul>
 							<li>

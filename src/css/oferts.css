@@ -12,7 +12,7 @@
 }
 
 .beh-img {
-	width: 160px !important;
+	height: 220px !important;
 }
 
 .beh-pic {
@@ -181,5 +181,11 @@
 		margin-top: 0%;
 		font-family: "Patrick Hand", cursive;
 		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 1418px) {
+	.beh-img {
+		width: 160px !important;
 	}
 }

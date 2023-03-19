@@ -11,7 +11,6 @@ function Location() {
 						<div>
 							<div>
 								<h3 className="footer-text">
-									Słupsk i okolice <br />
 									Wejherowo i okolice
 								</h3>
 							</div>
@@ -26,7 +25,7 @@ function Location() {
 						width="1080"
 						height="445"
 						id="gmap_canvas"
-						src=" https://maps.google.com/maps?q=S%C5%82upsk&t=&z=13&ie=UTF8&iwloc=&output=embed"
+						src=" https://maps.google.com/maps?q=S%C5%wejherowo&t=&z=13&ie=UTF8&iwloc=&output=embed"
 						frameBorder="0"
 						scrolling="no"
 						marginHeight="0"

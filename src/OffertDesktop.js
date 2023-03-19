@@ -12,9 +12,14 @@ import AdditionalsOffert from "./AdditionalsOffert";
 import Nosework from "./Nosework";
 
 function OffertDesktop() {
-	const [elemToDisplay, setElemToDisplay] = useState(0);
-	const handleElementToDisplay = (displayNr) => {
-		setElemToDisplay(elemToDisplay === displayNr ? 0 : displayNr);
+	const [openElem, setOpenElem] = useState(null);
+
+	const handleElementToDisplay = (elemId) => {
+		if (elemId === openElem) {
+			setOpenElem(null);
+		} else {
+			setOpenElem(elemId);
+		}
 	};
 
 	return (
@@ -35,7 +40,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/akus.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -45,7 +50,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(1)}
 								>
-									Więcej
+									{openElem === 1 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 						</div>
@@ -53,7 +58,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/akus.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -63,7 +68,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(2)}
 								>
-									Więcej
+									{openElem == 2 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 							<div></div>
@@ -72,7 +77,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/akus.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -82,7 +87,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(3)}
 								>
-									Więcej
+									{openElem == 3 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 						</div>
@@ -90,7 +95,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/akus.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -100,13 +105,13 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(4)}
 								>
-									Więcej
+									{openElem == 4 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<Collapse isOpened={elemToDisplay === 1}>
+				<Collapse isOpened={openElem === 1}>
 					<div
 						className="container offert-container"
 						id="behawioryzm"
@@ -117,7 +122,7 @@ function OffertDesktop() {
 						<NthOnlineBehCons />
 					</div>
 				</Collapse>
-				<Collapse isOpened={elemToDisplay === 2}>
+				<Collapse isOpened={openElem === 2}>
 					<div
 						className="container offert-container"
 						id="inywidualne"
@@ -127,12 +132,12 @@ function OffertDesktop() {
 						<AdvancedTraining />
 					</div>
 				</Collapse>
-				<Collapse isOpened={elemToDisplay === 3}>
+				<Collapse isOpened={openElem === 3}>
 					<div className="container offert-container" id="szkolenie">
 						<SocjalizationWalks />
 					</div>
 				</Collapse>
-				<Collapse isOpened={elemToDisplay === 4}>
+				<Collapse isOpened={openElem === 4}>
 					<div
 						className="container offert-container"
 						id="additionals"

@@ -25,13 +25,13 @@ function BehConsultationMobile() {
 					<div>
 						<p className="txt-offert-mobile">
 							Konsultacja odbywa się w miejscu przebywania psa, w
-							jego naturalnym otoczeniu i trwa zwykle około 1,5 do
-							2 godzin. W trakcie spotkania przeprowadzam wywiad z
+							jego naturalnym otoczeniu i trwa zwykle około 1,5
+							godziny. W trakcie spotkania przeprowadzam wywiad z
 							opiekunami oraz obserwuję zachowania psa w domu oraz
 							podczas spaceru. Skupiam się na takich aspektach jak
 							funkcjonowanie psa w domu, relacja z domownikami
 							oraz innymi zwierzętami, stan zdrowia zwierzęcia z
-							uwzględnieniem jego sposobu żywienia i codziennych
+							uwzględnieniem sposobu żywienia i codziennych
 							aktywności.
 							<br />
 							Celem konsultacji jest ocena zachowania psa mająca
@@ -95,14 +95,14 @@ function BehConsultationMobile() {
 					<div>
 						<p className="txt-offert-mobile">
 							Konsultacja odbywa się online na platformie Zoom i
-							trwa zwykle około 1,5 do 2 godzin. W trakcie
-							spotkania przeprowadzam wywiad z opiekunami oraz
-							obserwację zachowania psa na podstawie nagrań
-							wysłanych przez opiekunów. Skupiam się na takich
-							aspektach jak funkcjonowanie psa w domu, relacja z
-							domownikami oraz innymi zwierzętami, stan zdrowia
-							zwierzęcia z uwzględnieniem jego sposobu żywienia i
-							codziennych aktywności.
+							trwa zwykle około 1,5 godziny. W trakcie spotkania
+							przeprowadzam wywiad z opiekunami oraz obserwację
+							zachowania psa na podstawie nagrań wysłanych przez
+							opiekunów. Skupiam się na takich aspektach jak
+							funkcjonowanie psa w domu, relacja z domownikami
+							oraz innymi zwierzętami, stan zdrowia zwierzęcia z
+							uwzględnieniem sposobu żywienia i codziennych
+							aktywności.
 							<br />
 							Celem konsultacji jest ocena zachowania psa mająca
 							na celu identyfikacje przyczyn występowania
