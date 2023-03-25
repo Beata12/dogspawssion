@@ -47,8 +47,7 @@ export function IntroductionMobile() {
 									przyszłość wiążę ze zwierzętami. Chce
 									pomagać psom oraz ich opiekunom oraz szerzyć
 									wiedzę o prawidłowym ich karmieniu,
-									trenowaniu oraz, przede wszystkim
-									wychowaniu.
+									trenowaniu oraz przede wszystkim wychowaniu.
 									<br />
 									<br />
 									Pragnę aby wszystkie psy oraz ich

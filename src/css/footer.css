@@ -30,7 +30,7 @@
 
 .footer-text {
 	font-family: cursive;
-	margin: 20px;
+	margin: 50px;
 }
 
 .footer-styles {
@@ -52,6 +52,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+	.footer-text {
+		font-family: "Patrick Hand", cursive;
+	}
 	.mapouter {
 		display: none;
 	}

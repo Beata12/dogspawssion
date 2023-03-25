@@ -40,7 +40,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akus.jpg")}
+									src={require("./photo/dog-beh.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -58,7 +58,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akus.jpg")}
+									src={require("./photo/dog-beh.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -77,7 +77,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akus.jpg")}
+									src={require("./photo/dog-beh.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -95,7 +95,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akus.jpg")}
+									src={require("./photo/dog-beh.jpg")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>

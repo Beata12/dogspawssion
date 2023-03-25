@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 
 .body {
@@ -125,8 +126,10 @@
 
 .info-soon {
 	margin-top: 15%;
+	margin-bottom: 5%;
+	margin-top: 0%;
 	font-family: "Patrick Hand", cursive;
-	font-size: 60px;
+	font-size: 40px;
 }
 
 .intoruction-experience {
@@ -174,13 +177,6 @@
 
 	.offert-btn {
 		min-width: 40%;
-	}
-
-	.info-soon {
-		margin-bottom: 5%;
-		margin-top: 0%;
-		font-family: "Patrick Hand", cursive;
-		font-size: 40px;
 	}
 }
 
