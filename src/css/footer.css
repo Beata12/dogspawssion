@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap"); */
 
 .mobileContact {
 	display: none;
@@ -26,13 +26,13 @@
 	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.488),
 		4px 4px 6px rgba(94, 104, 121, 0.288);
 	background-color: rgba(94, 104, 121, 0.5);
-	font-family: "Oleo Script", cursive;
+	/* font-family: "Oleo Script", cursive; */
 	margin: 30px;
 	font-size: 30px;
 }
 
 .footer-contact {
-	font-family: "Oleo Script", cursive;
+	/* font-family: "Oleo Script", cursive; */
 	margin: 30px;
 }
 
@@ -69,7 +69,7 @@
 	}
 
 	.footer-text {
-		font-family: "Patrick Hand", cursive;
+		/* font-family: "Patrick Hand", cursive; */
 	}
 
 	.mapouter {

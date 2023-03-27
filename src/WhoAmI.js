@@ -13,11 +13,11 @@ function WhoAmI({ header }) {
 				czworonogów.
 				<br />
 				Pragnę aby wszystkie psy oraz ich opiekunowie byli szczęśliwi.
-				Psy doskonale odczytują naszą mowę ciała, nasze gesty oraz
-				emocje. W drugą stronę niestety jest trochę trudniej. Moim
-				zadaniem, jest ukierunkowanie opiekunów na dobrą ścieżkę oraz
-				pokazanie im, że poprzez zrozumienie psiego języka, uszanowanie
-				psich potrzeb można stworzyć silną więź pomiędzy psem a jego
+				Psy doskonale odczytują naszą mowę ciała, nasze gesty i emocje.
+				W drugą stronę niestety jest trochę trudniej. Moim zadaniem,
+				jest ukierunkowanie opiekunów na dobrą ścieżkę oraz pokazanie
+				im, że poprzez zrozumienie psiego języka, uszanowanie psich
+				potrzeb można stworzyć silną więź pomiędzy psem a jego
 				opiekunami i rozwiązać wszelkie problemy, które napotkali na
 				swojej drodze.
 			</p>

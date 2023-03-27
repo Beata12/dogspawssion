@@ -45,14 +45,14 @@ export function IntroductionMobile() {
 									Stale podnoszę swoje kwalifikacje, biorąc
 									udział w kursach i webinarach. Swoją
 									przyszłość wiążę ze zwierzętami. Chce
-									pomagać psom oraz ich opiekunom oraz szerzyć
-									wiedzę o prawidłowym ich karmieniu,
-									trenowaniu oraz przede wszystkim wychowaniu.
+									pomagać opiekunom i poszerzać ich wiedzę o
+									prawidłowym karmieniu, trenowaniu, a przede
+									wszystkim wychowaniu ich czworonogów.
 									<br />
 									<br />
-									Pragnę aby wszystkie psy oraz ich
+									Pragnę, aby wszystkie psy oraz ich
 									opiekunowie byli szczęśliwi. Psy doskonale
-									odczytują naszą mowę ciała, nasze gesty oraz
+									odczytują naszą mowę ciała, nasze gesty i
 									emocje. W drugą stronę niestety jest trochę
 									trudniej. Moim zadaniem, jest ukierunkowanie
 									opiekunów na dobrą ścieżkę oraz pokazanie

@@ -23,7 +23,7 @@ function Contack() {
 							</div>
 							<CopyToClipboard text="790-592-460">
 								<i
-									className="fa fa-phone kontact-size fa-3x"
+									className="fa fa-phone kontact-size fa-3x desktopContact"
 									title="skopiuj numer telefonu"
 								></i>
 							</CopyToClipboard>
@@ -42,6 +42,9 @@ function Contack() {
 							>
 								<i className="fa fa-envelope kontact-size fa-3x"></i>
 							</span>
+							<a className="mobileContact" href="tel:790-592-460">
+								<i className="fa fa-phone kontact-size fa-3x"></i>
+							</a>
 						</div>
 					</div>
 

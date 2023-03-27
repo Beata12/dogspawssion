@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"); */
 
 .body {
 	background-color: blue !important;
 }
 .offert-text {
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 }
 
 .offerts {
@@ -43,7 +43,7 @@
 	font-weight: bold;
 	float: left;
 	text-align: center;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 }
 
 .offert:hover {
@@ -128,7 +128,7 @@
 
 .info-soon {
 	margin-top: 15%;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 	font-size: 40px;
 }
 
@@ -172,7 +172,7 @@
 	}
 
 	.offert-header {
-		font-family: "Open Sans", sans-serif;
+		/* font-family: "Open Sans", sans-serif; */
 	}
 
 	.offert-btn {

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"); */
 
 body {
 	overflow-x: hidden;
@@ -15,7 +15,7 @@ body {
 }
 
 .header-txt {
-	font-family: "Patrick Hand", cursive;
+	/* font-family: "Patrick Hand", cursive; */
 }
 
 .about-photo {
@@ -82,7 +82,7 @@ body {
 	background-color: #787075;
 	color: white;
 	text-align: center; /* text-indent: -9999px; */
-	font-family: "Patrick Hand", cursive;
+	/* font-family: "Patrick Hand", cursive; */
 }
 
 .div1:hover,
@@ -156,7 +156,7 @@ body {
 		margin: 15px 10px 15px 10px;
 		box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
 			4px 4px 6px rgba(94, 104, 121, 0.288);
-		font-family: "Open Sans", sans-serif;
+		/* font-family: "Open Sans", sans-serif; */
 	}
 
 	.introduction-desktop {
@@ -178,7 +178,7 @@ body {
 
 	.introHead {
 		margin-top: 10px !important;
-		font-family: "Open Sans", sans-serif;
+		/* font-family: "Open Sans", sans-serif; */
 	}
 
 	.intro-txt-info {
