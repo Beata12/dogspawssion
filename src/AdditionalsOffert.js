@@ -17,22 +17,29 @@ function AdditionalsOffert() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 txt-align">
-						<p className="head-txt">
-							Dodatkowe usługi (cena ustalana indywidualnie)
-						</p>
-
-						<ul>
-							<li>
-								Porady w wyborze odpowiedniego żywienia i
-								suplementacji
-							</li>
-							<li>
-								Porady przed kupnem psa rasowego oraz wybraniem
-								odpowiedniej hodowli lub adopcją psa
-							</li>
-							<li>Petsitting</li>
-						</ul>
+					<div className="col-lg-8 d-flex align-items-center d-flex">
+						<div className="align-items-start flex-column bd-highlight mb-3">
+							<p className="head-txt text-center">
+								Dodatkowe usługi
+							</p>
+							<div className="mb-auto p-2 bd-highlight">
+								<ul>
+									<li>
+										Porady w wyborze odpowiedniego żywienia
+										i suplementacji
+									</li>
+									<li>
+										Porady przed kupnem psa rasowego oraz
+										wybraniem odpowiedniej hodowli lub
+										adopcją psa
+									</li>
+									<li>Petsitting</li>
+								</ul>
+							</div>
+							<div className="p-2 bd-highlight text-center">
+								<h5>Cena ustalana indywidualnie</h5>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

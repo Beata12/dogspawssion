@@ -7,12 +7,15 @@ function AdditionalsOffertMobile() {
 				<div className="col-5 dog-pic">
 					<img
 						className="dog-mobile"
-						src={require("./photo/pies2.jpg")}
+						src={require("./photo/aka.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
-				<div className="col-5">
-					<p className="font-bold">Dodatkowe usługi</p>
+				<div className="col-7">
+					<p className="font-bold">
+						Dodatkowe usługi <br />
+						(cena ustalana indywidualnie)
+					</p>
 				</div>
 				<div>
 					<ul>
@@ -32,12 +35,32 @@ function AdditionalsOffertMobile() {
 				<div className="col-5 dog-pic">
 					<img
 						className="dog-mobile"
-						src={require("./photo/pies2.jpg")}
+						src={require("./photo/aka.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
 				<div className="col-5">
 					<h2>Nosework</h2>
+					<div
+						className="info-soon"
+						data-aos="zoom-out-down"
+						data-aos-delay="100"
+						data-aos-duration="2000"
+					>
+						Informacje wkrótce...
+					</div>
+				</div>
+			</div>
+			<div className="row konsultacje">
+				<div className="col-5 dog-pic">
+					<img
+						className="dog-mobile"
+						src={require("./photo/aka.jpg")}
+						alt={"Add more descriptive alt"}
+					/>
+				</div>
+				<div className="col-5">
+					<h2>Dogoterapia</h2>
 					<div
 						className="info-soon"
 						data-aos="zoom-out-down"

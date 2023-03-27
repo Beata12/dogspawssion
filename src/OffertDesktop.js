@@ -10,6 +10,7 @@ import AdvancedTraining from "./AdvancedTraining";
 import SocjalizationWalks from "./SocjalizationWalks";
 import AdditionalsOffert from "./AdditionalsOffert";
 import Nosework from "./Nosework";
+import Dogotheraphy from "./Dogotheraphy";
 
 function OffertDesktop() {
 	const [openElem, setOpenElem] = useState(null);
@@ -25,7 +26,6 @@ function OffertDesktop() {
 	return (
 		<div
 			className="offert-container-desktop"
-			id="offert"
 			data-aos="fade-up"
 			data-aos-delay="100"
 			data-aos-duration="2000"
@@ -40,7 +40,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/111.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -58,7 +58,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/111.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -68,7 +68,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(2)}
 								>
-									{openElem == 2 ? "Mniej" : "Więcej"}
+									{openElem === 2 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 							<div></div>
@@ -77,7 +77,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/111.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -87,7 +87,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(3)}
 								>
-									{openElem == 3 ? "Mniej" : "Więcej"}
+									{openElem === 3 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 						</div>
@@ -95,7 +95,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/dog-beh.jpg")}
+									src={require("./photo/111.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -105,7 +105,7 @@ function OffertDesktop() {
 									className="offert-btn btn btn-light"
 									onClick={() => handleElementToDisplay(4)}
 								>
-									{openElem == 4 ? "Mniej" : "Więcej"}
+									{openElem === 4 ? "Mniej" : "Więcej"}
 								</button>
 							</div>
 						</div>
@@ -144,6 +144,7 @@ function OffertDesktop() {
 					>
 						<AdditionalsOffert />
 						<Nosework />
+						<Dogotheraphy />
 					</div>
 				</Collapse>
 			</div>

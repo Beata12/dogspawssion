@@ -59,7 +59,7 @@ function FirstBehConsultations() {
 						src={require("./photo/bone.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
-					<div className="boneText">150 złotych</div>
+					<div className="boneText">150 PLN</div>
 				</div>
 			</div>
 		</div>

@@ -7,7 +7,7 @@ function SocjalizationWalksMobile() {
 				<div className="col-5 dog-pic">
 					<img
 						className="dog-mobile"
-						src={require("./photo/pies2.jpg")}
+						src={require("./photo/aka.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
@@ -23,10 +23,10 @@ function SocjalizationWalksMobile() {
 					</p>
 					<ul>
 						<li>
-							Spacery grupowe - szczeniaki i młode psy - 30 zł
+							Spacery grupowe - szczeniaki i młode psy - 30 PLN
 						</li>
-						<li>Spacery grupowe - dorosłe psy - 40zł</li>
-						<li>Spacery indywidualne - 50zł</li>
+						<li>Spacery grupowe - dorosłe psy - 40 PLN</li>
+						<li>Spacery indywidualne - 50 PLN</li>
 					</ul>
 				</div>
 			</div>

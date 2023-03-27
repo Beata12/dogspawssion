@@ -52,7 +52,7 @@ function DogKindergarten() {
 							src={require("./photo/bone.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
-						<div className="boneText2">450/50 złotych</div>
+						<div className="boneText2">450/50 PLN</div>
 					</div>
 				</div>
 			</div>

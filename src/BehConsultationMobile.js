@@ -8,7 +8,7 @@ function BehConsultationMobile() {
 					<div className="col-5 dog-pic">
 						<img
 							className="dog-mobile"
-							src={require("./photo/pies2.jpg")}
+							src={require("./photo/aka.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
@@ -19,7 +19,7 @@ function BehConsultationMobile() {
 							(on-site/stacjonarna)
 						</p>
 						<ul>
-							<li>Cana: 150 zł</li>
+							<li>Cena: 150 PLN</li>
 						</ul>
 					</div>
 					<div>
@@ -50,7 +50,7 @@ function BehConsultationMobile() {
 					<div className="col-5 dog-pic">
 						<img
 							className="dog-mobile"
-							src={require("./photo/pies2.jpg")}
+							src={require("./photo/aka.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
@@ -61,7 +61,7 @@ function BehConsultationMobile() {
 							(on-site/stacjonarna)
 						</p>
 						<ul>
-							<li>Cana: 120 zł</li>
+							<li>Cena: 120 PLN</li>
 						</ul>
 					</div>
 					<div>
@@ -80,7 +80,7 @@ function BehConsultationMobile() {
 					<div className="col-5 dog-pic">
 						<img
 							className="dog-mobile"
-							src={require("./photo/pies2.jpg")}
+							src={require("./photo/aka.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
@@ -89,7 +89,7 @@ function BehConsultationMobile() {
 							Pierwsza konsultacja behawioralna (online)
 						</p>
 						<ul>
-							<li>Cana: 100 zł</li>
+							<li>Cena: 100 PLN</li>
 						</ul>
 					</div>
 					<div>
@@ -120,7 +120,7 @@ function BehConsultationMobile() {
 					<div className="col-5 dog-pic">
 						<img
 							className="dog-mobile"
-							src={require("./photo/pies2.jpg")}
+							src={require("./photo/aka.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
@@ -129,7 +129,7 @@ function BehConsultationMobile() {
 							Kolejna konsultacja behawioralna (online)
 						</p>
 						<ul>
-							<li>Cana: 90 zł</li>
+							<li>Cena: 90 PLN</li>
 						</ul>
 					</div>
 					<div>

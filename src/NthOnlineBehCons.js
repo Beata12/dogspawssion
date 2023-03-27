@@ -45,7 +45,7 @@ function NthOnlineBehCons() {
 						src={require("./photo/bone.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
-					<div className="boneText">90 złotych</div>
+					<div className="boneText">90 PLN</div>
 				</div>
 			</div>
 		</div>

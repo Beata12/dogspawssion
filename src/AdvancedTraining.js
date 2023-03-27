@@ -53,7 +53,7 @@ function AdvancedTraining() {
 							src={require("./photo/bone.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
-						<div className="boneText2">650/75 złotych</div>
+						<div className="boneText2">650/75 PLN</div>
 					</div>
 				</div>
 			</div>

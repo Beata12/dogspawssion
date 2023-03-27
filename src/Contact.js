@@ -1,5 +1,8 @@
 import React from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+const handleEmojiClick = () => {
+	window.location.href = "mailto:klaudiamarek11@gmail.com ";
+};
 
 function Contack() {
 	return (
@@ -31,6 +34,13 @@ function Contack() {
 									title="skopiuj e-mail"
 								></i>
 							</CopyToClipboard>
+							<span
+								role="img"
+								aria-label="Email"
+								onClick={handleEmojiClick}
+							>
+								✉️
+							</span>
 						</div>
 					</div>
 

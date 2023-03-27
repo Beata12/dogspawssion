@@ -24,7 +24,7 @@ function TrainingMobile() {
 				<div className="col-5 dog-pic">
 					<img
 						className="dog-mobile"
-						src={require("./photo/pies2.jpg")}
+						src={require("./photo/aka.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
@@ -34,7 +34,7 @@ function TrainingMobile() {
 						do 6 miesiąca (10 spotkań)
 					</p>
 					<ul>
-						<li>Cana: 450 zł / 50 zł</li>
+						<li>Cena: 450 PLN / 50 PLN</li>
 					</ul>
 				</div>
 				<div>
@@ -66,7 +66,7 @@ function TrainingMobile() {
 				<div className="col-5 dog-pic">
 					<img
 						className="dog-mobile"
-						src={require("./photo/pies2.jpg")}
+						src={require("./photo/aka.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
@@ -78,7 +78,7 @@ function TrainingMobile() {
 						Od 6 miesiąca (10 spotkań):
 					</p>
 					<ul>
-						<li>Cana: 600 zł / 70 zł</li>
+						<li>Cena: 600 PLN / 70 PLN</li>
 					</ul>
 				</div>
 				<div>
@@ -110,7 +110,7 @@ function TrainingMobile() {
 				<div className="col-5 dog-pic">
 					<img
 						className="dog-mobile"
-						src={require("./photo/pies2.jpg")}
+						src={require("./photo/aka.jpg")}
 						alt={"Add more descriptive alt"}
 					/>
 				</div>
@@ -121,7 +121,7 @@ function TrainingMobile() {
 						Po ukońćzeniu podstaw posłuszeństwa (10 spotkań)
 					</p>
 					<ul>
-						<li>Cana: 650 zł / 75 zł</li>
+						<li>Cena: 650 PLN / 75 PLN</li>
 					</ul>
 				</div>
 				<div>

@@ -17,21 +17,26 @@ function SocjalizationWalks() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 txt-align">
-						<p className="head-txt">Spacery socjalizacyjne</p>
-						<p>
-							Spacery odbywają się w małej grupie. Podczas
-							spacerów nie dopuszczamy do bezpośredniego kontaktu
-							między psami i nie podchodzimy do psów innych
-							uczestników bez zezwolenia.
-						</p>
-						<ul>
-							<li>
-								Spacery grupowe - szczeniaki i młode psy - 30 zł
-							</li>
-							<li>Spacery grupowe - dorosłe psy - 40zł</li>
-							<li>Spacery indywidualne - 50zł</li>
-						</ul>
+					<div className="col-lg-8 d-flex align-items-center">
+						<div>
+							<p className="head-txt text-center">
+								Spacery socjalizacyjne
+							</p>
+							<p>
+								Spacery odbywają się w małej grupie. Podczas
+								spacerów nie dopuszczamy do bezpośredniego
+								kontaktu między psami i nie podchodzimy do psów
+								innych uczestników bez zezwolenia.
+							</p>
+							<ul>
+								<li>
+									Spacery grupowe - szczeniaki i młode psy -
+									30 PLN
+								</li>
+								<li>Spacery grupowe - dorosłe psy - 40 PLN</li>
+								<li>Spacery indywidualne - 50 PLN</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

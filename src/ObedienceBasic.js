@@ -53,7 +53,7 @@ function ObedienceBasic() {
 							src={require("./photo/bone.jpg")}
 							alt={"Add more descriptive alt"}
 						/>
-						<div className="boneText2">600/70 złotych</div>
+						<div className="boneText2">600/70 PLN</div>
 					</div>
 				</div>
 			</div>
