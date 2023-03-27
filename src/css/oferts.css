@@ -5,7 +5,7 @@
 	background-color: blue !important;
 }
 .offert-text {
-	font-family: "Patrick Hand", cursive;
+	/* font-family: "Patrick Hand", cursive; */
 }
 .offerts {
 	display: flex;
@@ -41,7 +41,7 @@
 	font-weight: bold;
 	float: left;
 	text-align: center;
-	font-family: "Patrick Hand", cursive;
+	/* font-family: "Patrick Hand", cursive; */
 }
 
 .offert:hover {
@@ -126,7 +126,7 @@
 
 .info-soon {
 	margin-top: 15%;
-	font-family: "Patrick Hand", cursive;
+	/* font-family: "Patrick Hand", cursive; */
 	font-size: 40px;
 }
 
@@ -170,7 +170,7 @@
 	}
 
 	.offert-header {
-		font-family: "Patrick Hand", cursive;
+		/* font-family: "Patrick Hand", cursive; */
 	}
 
 	.offert-btn {

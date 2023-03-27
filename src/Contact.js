@@ -30,16 +30,17 @@ function Contack() {
 
 							<CopyToClipboard text="klaudiamarek11@gmail.com">
 								<i
-									className="fa fa-envelope kontact-size fa-3x"
+									className="fa fa-envelope kontact-size fa-3x desktopContact"
 									title="skopiuj e-mail"
 								></i>
 							</CopyToClipboard>
 							<span
+								className="mobileContact"
 								role="img"
 								aria-label="Email"
 								onClick={handleEmojiClick}
 							>
-								✉️
+								<i className="fa fa-envelope kontact-size fa-3x"></i>
 							</span>
 						</div>
 					</div>

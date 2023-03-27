@@ -81,7 +81,7 @@ body {
 	background-color: #787075;
 	color: white;
 	text-align: center; /* text-indent: -9999px; */
-	font-family: "Patrick Hand", cursive;
+	/* font-family: "Patrick Hand", cursive; */
 }
 
 .div1:hover,
@@ -155,7 +155,7 @@ body {
 		margin: 15px 10px 15px 10px;
 		box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
 			4px 4px 6px rgba(94, 104, 121, 0.288);
-		font-family: "Patrick Hand", cursive;
+		/* font-family: "Patrick Hand", cursive; */
 	}
 
 	.introduction-desktop {
@@ -177,7 +177,7 @@ body {
 
 	.introHead {
 		margin-top: 10px !important;
-		font-family: "Patrick Hand", cursive;
+		/* font-family: "Patrick Hand", cursive; */
 	}
 
 	.intro-txt-info {

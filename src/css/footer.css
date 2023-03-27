@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 
+.mobileContact {
+	display: none;
+}
+
+.desktopContact {
+	display: block;
+}
+
 .footerBox {
 	border: 4px solid rgba(94, 104, 121, 0.3);
 	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
@@ -52,12 +60,22 @@
 }
 
 @media only screen and (max-width: 1000px) {
-	.footer-text {
-		font-family: "Patrick Hand", cursive;
+	.mobileContact {
+		display: block;
 	}
+
+	.desktopContact {
+		display: none;
+	}
+
+	/* .footer-text {
+		font-family: "Patrick Hand", cursive;
+	} */
+
 	.mapouter {
 		display: none;
 	}
+
 	.text-center {
 		padding: 20px;
 	}
