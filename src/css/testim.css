@@ -5,11 +5,12 @@
 	display: flex;
 	margin-bottom: 50px;
 	justify-content: center;
-	/* font-family: "Patrick Hand", cursive; */
+	font-family: "Open Sans", sans-serif;
 }
 
 .testimonial {
-	/* font-family: "Patrick Hand", cursive; */
+	font-family: "Open Sans", sans-serif;
+
 	font-size: 20px;
 	text-align: justify;
 	cursor: text;
@@ -112,7 +113,8 @@
 }
 
 .name-opinion {
-	/* font-family: "Patrick Hand", cursive; */
+	font-family: "Open Sans", sans-serif;
+
 	font-size: 30px;
 }
 
@@ -131,7 +133,7 @@
 	.think-text {
 		font-size: 35px;
 		text-align: center;
-		/* font-family: "Patrick Hand", cursive; */
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.profile {
@@ -160,7 +162,8 @@
 
 	.testim-name {
 		padding: 20px;
-		/* font-family: "Patrick Hand", cursive; */
+		font-family: "Open Sans", sans-serif;
+
 		font-size: 30px;
 	}
 }
