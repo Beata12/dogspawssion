@@ -11,7 +11,10 @@ function Location() {
 						<div>
 							<div>
 								<h3 className="footer-text">
-									Trójmiasto, małe trójmiasto i okolice
+									<p>Trójmiasto</p>
+									<p>Małe trójmiasto</p>
+									<p>Puck</p>
+									<p>Okolice</p>
 								</h3>
 							</div>
 						</div>

@@ -5,11 +5,11 @@
 	display: flex;
 	margin-bottom: 50px;
 	justify-content: center;
-	/* font-family: "Open Sans", sans-serif; */
+	font-family: cursive;
 }
 
 .testimonial {
-	/* font-family: "Open Sans", sans-serif; */
+	font-family: cursive;
 	font-size: 20px;
 	text-align: justify;
 	cursor: text;
@@ -112,7 +112,7 @@
 }
 
 .name-opinion {
-	/* font-family: "Open Sans", sans-serif; */
+	font-family: cursive;
 	font-size: 30px;
 }
 
@@ -131,7 +131,7 @@
 	.think-text {
 		font-size: 35px;
 		text-align: center;
-		/* font-family: "Open Sans", sans-serif; */
+		font-family: cursive;
 	}
 
 	.profile {
@@ -160,7 +160,7 @@
 
 	.testim-name {
 		padding: 20px;
-		/* font-family: "Open Sans", sans-serif; */
+		font-family: cursive;
 		font-size: 30px;
 	}
 }
