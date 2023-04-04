@@ -15,7 +15,7 @@
 }
 
 .beh-img {
-	height: 100px;
+	height: 220px;
 }
 
 .beh-pic {
@@ -35,11 +35,11 @@
 }
 
 .ofert {
-	width: 380px;
+	width: 400px;
 	height: 50px;
 	margin-top: 40px;
 	color: black;
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: bold;
 	float: left;
 	text-align: center;
@@ -53,10 +53,6 @@
 .offerts {
 	display: flex;
 	justify-content: center;
-}
-
-.beh-img {
-	height: 250px;
 }
 
 .konsultacje {
@@ -83,18 +79,18 @@
 	width: 500px;
 }
 .boneImg {
-	width: 250px;
+	width: 300px;
 }
 .boneText {
 	position: absolute;
-	left: 17%;
-	top: 40%;
+	left: 24%;
+	top: 44%;
 }
 
 .boneText2 {
 	position: absolute;
-	left: 15%;
-	top: 40%;
+	left: 23%;
+	top: 44%;
 }
 
 .paw-txt {
@@ -138,6 +134,10 @@
 }
 
 @media only screen and (max-width: 1201px) {
+	.beh-img {
+		height: 200px;
+	}
+
 	.offert-container-desktop {
 		display: none;
 	}
@@ -181,7 +181,11 @@
 }
 
 @media only screen and (max-width: 1418px) {
+	.ofert {
+		font-size: 19px;
+	}
+
 	.beh-img {
-		height: 200px;
+		height: 180px;
 	}
 }

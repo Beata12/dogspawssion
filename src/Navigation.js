@@ -7,7 +7,7 @@ function Navigation() {
 			<div className="container">
 				<a className="ms-4" href="#navigation">
 					<img
-						src={require("./photo/logo.png")}
+						src={require("./photo/logo6.png")}
 						className={"logo-size"}
 						alt={"Logo"}
 					/>

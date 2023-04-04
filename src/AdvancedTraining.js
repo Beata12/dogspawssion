@@ -50,7 +50,7 @@ function AdvancedTraining() {
 					<div className="bonePrice">
 						<img
 							className="boneImg"
-							src={require("./photo/bone.jpg")}
+							src={require("./photo/kosc1.png")}
 							alt={"Add more descriptive alt"}
 						/>
 						<div className="boneText2">650/75 PLN</div>

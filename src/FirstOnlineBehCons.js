@@ -57,7 +57,7 @@ function FirstOnlineBehCons() {
 					<div className="bonePrice">
 						<img
 							className="boneImg"
-							src={require("./photo/bone.jpg")}
+							src={require("./photo/kosc1.png")}
 							alt={"Add more descriptive alt"}
 						/>
 						<div className="boneText">100 PLN</div>

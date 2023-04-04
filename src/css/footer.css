@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap&display=swap&font-display=swap");
 
 .mobileContact {
 	display: none;
@@ -32,12 +32,23 @@
 }
 
 .footer-contact {
-	font-family: cursive;
+	font-family: "Delicious Handrawn";
+	src: url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap")
+		format("woff2");
+	font-display: swap;
+
+	font-size: 50px;
 	margin: 30px;
 }
 
+.form {
+	font-family: "Delicious Handrawn", cursive;
+	font-size: 40px;
+}
+
 .footer-text {
-	font-family: cursive;
+	font-family: "Tillana", cursive;
+	font-size: 30px;
 	margin: 50px;
 }
 

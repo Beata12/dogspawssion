@@ -58,8 +58,8 @@ function Contack() {
 							href="https://docs.google.com/forms/d/1tx2ZppHJzn_NOtAXJ-eHPVW3cd7_jl_J-xoo9Z5Tokk/viewform?fbclid=IwAR31p6VL-_GxTjSt0Ne1vjTVNNRHYcHthiVTvRavT3POGXqAtWZJ02oZCic&edit_requested=true"
 							target="blank"
 						>
-							<button className=" btn-footer btn-lg text-lowercase">
-								Formularz
+							<button className=" btn-footer btn-lg text-lowercase form">
+								formularz
 							</button>
 						</a>
 					</div>

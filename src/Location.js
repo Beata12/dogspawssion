@@ -14,7 +14,6 @@ function Location() {
 									<p>Trójmiasto</p>
 									<p>Małe trójmiasto</p>
 									<p>Puck</p>
-									<p>Okolice</p>
 								</h3>
 							</div>
 						</div>
