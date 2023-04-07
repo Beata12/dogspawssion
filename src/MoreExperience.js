@@ -2,9 +2,9 @@ import React from "react";
 
 function Experience() {
 	return (
-		<div className="scroll-bar">
+		<div className="scroll-bar font-offerts">
 			<div>
-				<p className="intoruction-experience">
+				<p className="intoruction-experience head-txt">
 					Stale dokształcam się biorąc udział w licznych webinarach,
 					kursach doszkalających i konferencjach oraz pogłębiam wiedzę
 					pozostając na bieżąco z najnowszymi badaniami, artykułami i

@@ -42,12 +42,12 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/akira.jpg")}
+								src={require("./photo/akira.png")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
 						<div className="ofert">
-							<div className="text-uppercase">
+							<div className="text-uppercase offert-hdr-mbl">
 								KONSULTACJE BEHAWIORALNE
 							</div>
 							<div>
@@ -67,12 +67,14 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/akira.jpg")}
+								src={require("./photo/akira.png")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
 						<div className="ofert">
-							<div className="text-uppercase">SZKOLENIA</div>
+							<div className="text-uppercase offert-hdr-mbl">
+								SZKOLENIA
+							</div>
 							<div>
 								<button
 									className="offert-btn btn btn-light"
@@ -90,12 +92,12 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/akira.jpg")}
+								src={require("./photo/akira.png")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
 						<div className="ofert">
-							<div className="text-uppercase">
+							<div className="text-uppercase offert-hdr-mbl">
 								SPACERY SOCJALIZACYJNE
 							</div>
 							<div>
@@ -115,12 +117,12 @@ function OffertMobile() {
 						<div>
 							<img
 								className="beh-img"
-								src={require("./photo/akira.jpg")}
+								src={require("./photo/akira.png")}
 								alt={"Add more descriptive alt"}
 							/>
 						</div>
 						<div className="ofert">
-							<div className="text-uppercase">
+							<div className="text-uppercase offert-hdr-mbl">
 								Dodatkowe usługi
 							</div>
 							<div>

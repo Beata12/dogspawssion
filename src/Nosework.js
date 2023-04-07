@@ -20,7 +20,7 @@ function Nosework() {
 					<div className="col-lg-8 txt-align">
 						<p className="head-txt">Nosework</p>
 						<div
-							className="d-flex justify-content-center info-soon"
+							className="d-flex justify-content-center info-soon "
 							data-aos="zoom-out-down"
 							data-aos-delay="100"
 							data-aos-duration="2000"

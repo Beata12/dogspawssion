@@ -1,11 +1,22 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap&display=swap&font-display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tillana:wght@400;500&display=swap");
 
 .body {
 	background-color: blue !important;
 }
 .offert-text {
+	font-family: cursive;
+}
+
+.font-offerts {
+	font-family: "Tillana", cursive;
+	font-size: 20px;
+}
+
+.text-center {
 	font-family: cursive;
 }
 
@@ -43,7 +54,7 @@
 	font-weight: bold;
 	float: left;
 	text-align: center;
-	font-family: cursive;
+	font-family: "Tillana", cursive;
 }
 
 .offert:hover {
@@ -85,12 +96,14 @@
 	position: absolute;
 	left: 24%;
 	top: 44%;
+	font-family: "Tillana", cursive;
 }
 
 .boneText2 {
 	position: absolute;
 	left: 23%;
 	top: 44%;
+	font-family: "Tillana", cursive;
 }
 
 .paw-txt {
@@ -133,6 +146,40 @@
 	font-weight: bold;
 }
 
+@media only screen and (max-width: 415px) {
+	.info-soon {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.font-offerts {
+		font-size: 18px;
+	}
+
+	.head-txt,
+	.header-mbl {
+		font-size: 18px;
+		font-family: "Tillana", cursive;
+	}
+
+	.hdr-mbl {
+		font-size: 18px;
+	}
+
+	.offert-hdr-mbl {
+		font-family: "Delicious Handrawn", cursive;
+		src: url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap")
+			format("woff2");
+		font-size: 25px;
+	}
+
+	.offert-btn {
+		font-size: 20px !important;
+		font-family: "Tillana", cursive;
+	}
+}
+
 @media only screen and (max-width: 1201px) {
 	.beh-img {
 		height: 200px;
@@ -143,7 +190,7 @@
 	}
 
 	.intoruction-experience {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 	.offert-container-mobile {
@@ -151,8 +198,10 @@
 		margin-bottom: 20%;
 	}
 
-	.txt-offert-mobile {
+	.txt-offert-mobile,
+	.add-offert-mbl {
 		text-align: justify;
+		font-family: "Tillana", cursive;
 	}
 
 	.dog-mobile {
@@ -172,7 +221,8 @@
 	}
 
 	.offert-header {
-		font-family: cursive;
+		font-family: "Delicious Handrawn", cursive;
+		font-size: 40px;
 	}
 
 	.offert-btn {
@@ -180,12 +230,13 @@
 	}
 }
 
-@media only screen and (max-width: 1418px) {
+@media only screen and (max-width: 1400px) {
 	.ofert {
-		font-size: 19px;
+		font-size: 18px;
 	}
 
 	.beh-img {
 		height: 180px;
+		margin: 10px;
 	}
 }

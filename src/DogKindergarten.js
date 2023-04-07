@@ -23,7 +23,7 @@ function DogKindergarten() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 d-flex align-items-center">
+					<div className="col-lg-8 d-flex align-items-center font-offerts">
 						<div>
 							<p className="head-txt text-center">
 								Indywidualne Psie przedszkole <br />
@@ -52,7 +52,7 @@ function DogKindergarten() {
 							src={require("./photo/kosc1.png")}
 							alt={"Add more descriptive alt"}
 						/>
-						<div className="boneText2">450/50 PLN</div>
+						<div className="boneText2">550/60 PLN</div>
 					</div>
 				</div>
 			</div>

@@ -2,9 +2,9 @@ import React from "react";
 
 function KindergartenMore() {
 	return (
-		<div className="scroll-bar">
+		<div className="scroll-bar font-offerts">
 			<div>
-				<h5>Program</h5>
+				<h5 className="head-txt text-center">Program</h5>
 			</div>
 			<ul>
 				<li>Wprowadzenie klikera</li>

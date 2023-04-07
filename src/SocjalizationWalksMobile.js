@@ -12,7 +12,7 @@ function SocjalizationWalksMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p className="font-bold">Spacery socjalizacyjne</p>
+					<p className="font-bold hdr-mbl">Spacery socjalizacyjne</p>
 				</div>
 				<div>
 					<p className="txt-offert-mobile">
@@ -21,7 +21,7 @@ function SocjalizationWalksMobile() {
 						i nie podchodzimy do psów innych uczestników bez
 						zezwolenia.
 					</p>
-					<ul>
+					<ul className="txt-offert-mobile">
 						<li>
 							Spacery grupowe - szczeniaki i młode psy - 30 PLN
 						</li>

@@ -18,10 +18,9 @@ function FirstBehConsultations() {
 						/>
 					</div>
 
-					<div className="col-lg-8 txt-align">
+					<div className="col-lg-8 txt-align font-offerts">
 						<p className="head-txt">
 							Pierwsza konsultacja behawioralna
-							<br />
 							(on-site/stacjonarna)
 						</p>
 						<p>

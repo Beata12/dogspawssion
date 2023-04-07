@@ -63,7 +63,7 @@ export function IntroductionMobile() {
 									na swojej drodze.
 								</div>
 							</Collapse>
-							<div className="d-flex justify-content-center">
+							<div className="d-flex justify-content-center btn-fnt-siz">
 								<button
 									className="offert-btn btn btn-light "
 									onClick={() => handleElementToDisplay(1)}
@@ -74,7 +74,7 @@ export function IntroductionMobile() {
 						</div>
 					</div>
 					<div className="intro-txt">
-						<h1 className="introHead fw-bold">DOŚWIADCZENIE</h1>
+						<h1 className="introHead fw-bold">KURSY/SZKOLENIA</h1>
 						<Collapse isOpened={elemToDisplay2 === 1}>
 							<div className="intro-txt-info">
 								<ul>
@@ -110,7 +110,6 @@ export function IntroductionMobile() {
 												Nr licencji:
 												542/TRP/GW/PAZiA/2021
 											</li>
-											<li></li>
 										</ul>
 									</li>
 									<li>

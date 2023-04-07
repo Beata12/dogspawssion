@@ -38,7 +38,7 @@ function IntroductionDesktop() {
 						id="div-exp"
 						onClick={() => handleElementToDisplay(2)}
 					>
-						MOJE DOŚWIADCZENIE
+						KURSY/SZKOLENIA
 					</div>
 					<div
 						className="div3"
@@ -78,7 +78,7 @@ function IntroductionDesktop() {
 									<div className="col-lg-8 text-margin-top">
 										<div className="mb-5 mb-lg-0 text-justify">
 											<Experience
-												header={"DOŚWIADCZENIE"}
+												header={"KURSY / SZKOLENIA"}
 											/>
 										</div>
 									</div>

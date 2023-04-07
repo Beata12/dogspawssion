@@ -29,12 +29,13 @@ function TrainingMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p className="font-bold">
-						Indywidualne Psie przedszkole <br />
+					<p className="font-bold hdr-mbl">
+						Indywidualne <br />
+						Psie przedszkole <br />
 						do 6 miesiąca (10 spotkań)
 					</p>
 					<ul>
-						<li>Cena: 450 PLN / 50 PLN</li>
+						<li className="font-bold">Cena: 550 PLN / 60 PLN</li>
 					</ul>
 				</div>
 				<div>
@@ -71,14 +72,15 @@ function TrainingMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p className="font-bold">
-						Indywidualne Szkolenie podstawowe
+					<p className="font-bold hdr-mbl">
+						Indywidualne <br />
+						Szkolenie podstawowe
 						<br />
 						Podstawy posłuszeństwa <br />
 						Od 6 miesiąca (10 spotkań):
 					</p>
 					<ul>
-						<li>Cena: 600 PLN / 70 PLN</li>
+						<li className="font-bold">Cena: 600 PLN / 70 PLN</li>
 					</ul>
 				</div>
 				<div>
@@ -115,13 +117,14 @@ function TrainingMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p className="font-bold">
-						Indywidualne Szkolenie zaawansowane
+					<p className="font-bold hdr-mbl ">
+						Indywidualne <br />
+						Szkolenie zaawansowane
 						<br />
 						Po ukońćzeniu podstaw posłuszeństwa (10 spotkań)
 					</p>
 					<ul>
-						<li>Cena: 650 PLN / 75 PLN</li>
+						<li className="font-bold">Cena: 650 PLN / 75 PLN</li>
 					</ul>
 				</div>
 				<div>

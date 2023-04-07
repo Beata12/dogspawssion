@@ -18,7 +18,7 @@ function AdditionalsOffert() {
 						/>
 					</div>
 					<div className="col-lg-8 d-flex align-items-center d-flex">
-						<div className="align-items-start flex-column bd-highlight mb-3">
+						<div className="align-items-start flex-column bd-highlight mb-3 font-offerts">
 							<p className="head-txt text-center">
 								Dodatkowe usługi
 							</p>

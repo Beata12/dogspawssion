@@ -16,7 +16,8 @@ body {
 }
 
 .header-txt {
-	font-family: Pacifico, cursive;
+	font-family: "Delicious Handrawn", cursive;
+	font-size: 60px;
 }
 
 .about-photo {
@@ -184,6 +185,8 @@ body {
 	}
 
 	.intro-txt-info {
+		font-family: "Delicious Handrawn", cursive;
+		font-size: 20px;
 		margin: 0 20px 0;
 	}
 

@@ -17,7 +17,7 @@ function FirstOnlineBehCons() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 d-flex align-items-center">
+					<div className="col-lg-8 d-flex align-items-center font-offerts">
 						<div>
 							<p className="head-txt text-center">
 								Pierwsza konsultacja behawioralna (online)

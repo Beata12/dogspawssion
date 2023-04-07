@@ -26,6 +26,7 @@ function OffertDesktop() {
 	return (
 		<div
 			className="offert-container-desktop"
+			id="offert"
 			data-aos="fade-up"
 			data-aos-delay="100"
 			data-aos-duration="2000"
@@ -40,7 +41,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akira.jpg")}
+									src={require("./photo/akira.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -58,7 +59,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akira.jpg")}
+									src={require("./photo/akira.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -77,7 +78,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akira.jpg")}
+									src={require("./photo/akira.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>
@@ -95,7 +96,7 @@ function OffertDesktop() {
 							<div>
 								<img
 									className="beh-img"
-									src={require("./photo/akira.jpg")}
+									src={require("./photo/akira.png")}
 									alt={"Add more descriptive alt"}
 								/>
 							</div>

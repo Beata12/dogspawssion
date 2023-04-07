@@ -23,9 +23,9 @@ function AdvancedTraining() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 d-flex align-items-center">
+					<div className="col-lg-8 d-flex align-items-center font-offerts">
 						<div>
-							<p className="head-txt text-center">
+							<p className="head-txt text-center ">
 								Indywidualne Szkolenie zaawansowane
 								<br />
 								Po ukońćzeniu podstaw posłuszeństwa (10 spotkań){" "}

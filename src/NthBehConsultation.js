@@ -17,7 +17,7 @@ function NthBehConsultation() {
 							alt={"Add more descriptive alt"}
 						/>
 					</div>
-					<div className="col-lg-8 d-flex align-items-center">
+					<div className="col-lg-8 d-flex align-items-center font-offerts">
 						<div>
 							<p className="head-txt text-center">
 								Kolejna konsultacja behawioralna
@@ -43,7 +43,7 @@ function NthBehConsultation() {
 				<div className="bonePrice">
 					<img
 						className="boneImg"
-						src={require("./photo/kosc2.png")}
+						src={require("./photo/kosc1.png")}
 						alt={"Add more descriptive alt"}
 					/>
 					<div className="boneText">120 PLN</div>

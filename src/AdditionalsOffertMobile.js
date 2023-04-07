@@ -12,12 +12,9 @@ function AdditionalsOffertMobile() {
 					/>
 				</div>
 				<div className="col-7">
-					<p className="font-bold">
-						Dodatkowe usługi <br />
-						(cena ustalana indywidualnie)
-					</p>
+					<p className="font-bold hdr-mbl">Dodatkowe usługi</p>
 				</div>
-				<div>
+				<div className="add-offert-mbl">
 					<ul>
 						<li>
 							Porady w wyborze odpowiedniego żywienia i
@@ -29,6 +26,9 @@ function AdditionalsOffertMobile() {
 						</li>
 						<li>Petsitting</li>
 					</ul>
+				</div>
+				<div className="p-1 bd-highlight text-center">
+					<h5>Cena ustalana indywidualnie</h5>
 				</div>
 			</div>
 			<div className="row konsultacje">

@@ -13,13 +13,13 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p className="font-bold">
+						<p className="font-bold hdr-mbl">
 							Pierwsza konsultacja behawioralna
 							<br />
 							(on-site/stacjonarna)
 						</p>
 						<ul>
-							<li>Cena: 150 PLN</li>
+							<li className="font-bold">Cena: 150 PLN</li>
 						</ul>
 					</div>
 					<div>
@@ -55,13 +55,13 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p className="font-bold">
+						<p className="font-bold hdr-mbl">
 							Kolejna konsultacja behawioralna
 							<br />
 							(on-site/stacjonarna)
 						</p>
 						<ul>
-							<li>Cena: 120 PLN</li>
+							<li className="font-bold">Cena: 120 PLN</li>
 						</ul>
 					</div>
 					<div>
@@ -85,11 +85,11 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p className="font-bold">
+						<p className="font-bold hdr-mbl">
 							Pierwsza konsultacja behawioralna (online)
 						</p>
 						<ul>
-							<li>Cena: 100 PLN</li>
+							<li className="font-bold">Cena: 100 PLN</li>
 						</ul>
 					</div>
 					<div>
@@ -125,11 +125,11 @@ function BehConsultationMobile() {
 						/>
 					</div>
 					<div className="col-7">
-						<p className="font-bold">
+						<p className="font-bold hdr-mbl">
 							Kolejna konsultacja behawioralna (online)
 						</p>
 						<ul>
-							<li>Cena: 90 PLN</li>
+							<li className="font-bold">Cena: 90 PLN</li>
 						</ul>
 					</div>
 					<div>
