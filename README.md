@@ -40,15 +40,19 @@ Experience the application live and explore the services, courses, and unique ap
 **Follow these steps to run DogPawsion on your local machine:**
 
 **1. Clone this repository:**
+
 git clone https://github.com/Beata12/dogpawsion.git
 
 **2. Navigate to the project directory:**
+
 cd dogpawsion
 
 **3. Install the necessary dependencies:**
+
 npm install
 
 **4. Launch the development server:**
+
 npm start
 
 You can now view DogPawsion in your browser at http://localhost:3000.
