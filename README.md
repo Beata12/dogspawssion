@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# DogPawsion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DogPawsion is a React-based webpage dedicated to showcasing the unique expertise and services of  a dedicated dog therapist. DogPawsion is more than just a website, it's a portal to understanding the deep connection between dogs and their owners, and how professional therapy can enhance this bond. Through detailed service offerings, personal testimonials, and direct contact features, DogPawsion aims to bridge the gap between dog owners seeking guidance and the exceptional therapeutic services provided.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Meet Klaudia**: Dive into the story of her, the heart and soul behind DogPawsion. This section provides insights into their background, qualifications, and the journey that led them to become a passionate dog therapist.
 
-### `npm start`
+- **Courses and Training**: Discover the wide array of courses and training sessions tailored by Klaudia to meet the needs of dogs and owners alike. From puppy basics to advanced behavior challenges, Klaudia offers comprehensive solutions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Why DogPawsion?**: Learn why Klaudia's approach stands out in the field of dog therapy. This segment highlights the unique methods, philosophies, and outcomes that make DogPawsion the go-to for dog behavioral therapy.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Services Overview**: Get acquainted with the full spectrum of services Klaudia offers, including behavioral consultations, personalized training programs, socialization walks, and much more. Each service is detailed further upon selection.
 
-### `npm test`
+- **Client Testimonials**: Hear directly from those who've experienced Klaudia's impact first-hand. Photos of clients and their dogs reveal heartfelt testimonials about the positive changes fostered through DogPawsion's services.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Contact and Connect**: Reaching Klaudia is made simple. Click on contact icons to copy Klaudia's contact details instantly or use the direct messaging form to send a personalized message or inquiry.
 
-### `npm run build`
+- **Pet Profile Form**: Share details about your furry friend to help Klaudia tailor their approach to your pet's specific needs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Find Us**: Locate DogPawsion easily with an integrated map, ensuring you know exactly where to go for your appointment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Easy Navigation**: Utilize the thoughtfully designed menu to explore the website, learn about services, and access Klaudia's contact information swiftly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![image](https://github.com/Beata12/dogspawssion/assets/38575612/31c0dd31-6b15-4308-b96b-53f07bde6004)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Experience the application live and explore the services, courses, and unique approach of the dogotherapist at [DogPawsion Live](https://reactlrn.netlify.app/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/Beata12/dogspawssion/assets/38575612/40da7f74-22f5-471d-bdc4-b2bbeeb2254a)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Follow these steps to run DogPawsion on your local machine:**
 
-### Analyzing the Bundle Size
+**1. Clone this repository:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone https://github.com/Beata12/dogpawsion.git
 
-### Making a Progressive Web App
+**2. Navigate to the project directory:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd dogpawsion
 
-### Advanced Configuration
+**3. Install the necessary dependencies:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+**4. Launch the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+You can now view DogPawsion in your browser at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
