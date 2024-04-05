@@ -8,7 +8,7 @@ function AdvancedMore() {
 			</div>
 			<ul>
 				<li>Perfekcyjne przywołanie</li>
-				<li>Skupienie się na przewodniku </li>
+				<li>Skupienie się na przewodniku</li>
 				<li>Ignorowanie rozproszeń</li>
 				<li>Omijanie psów/ludzi</li>
 				<li>Wydłużanie czasu trwania komendy </li>
