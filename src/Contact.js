@@ -1,5 +1,7 @@
 import React from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import EmailForm from "./EmailForm";
+
 const handleEmojiClick = () => {
 	window.location.href = "mailto:klaudiamarek11@gmail.com ";
 };
@@ -13,10 +15,28 @@ function Contack() {
 					<div className="">
 						<div>
 							<div>
-								<h3 className="footer-text">
+								<h3
+									className="footer-text"
+									data-aos="zoom-in-up"
+									data-aos-delay="200"
+									data-aos-duration="1500"
+								>
 									Masz jakieś wątpliwości lub pytania? <br />
-									Kliknij na poniższe ikony, skopiuj mój
-									numer/e-mail. <br />
+									Napisz do mnie:
+								</h3>
+
+								<EmailForm />
+								<h3
+									className="textMessage footer-text"
+									data-aos="zoom-in-up"
+									data-aos-delay="250"
+									data-aos-duration="1500"
+								>
+									Poniżej zostawiam kontakt do mnie,
+									<br />
+									wystarczy, że klikniesz w poniższe ikony.
+									<br />
+									Skopiuj mój numer/e-mail. <br />
 									Skontaktuj się ze mną, a ja wszystko
 									wytłumaczę!
 								</h3>

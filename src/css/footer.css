@@ -9,11 +9,54 @@
 	display: inline;
 }
 
+.button-arrow {
+	display: none;
+}
+
 .footerBox {
 	border: 4px solid rgba(94, 104, 121, 0.3);
 	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
 		4px 4px 6px rgba(94, 104, 121, 0.288);
 	margin-bottom: 40px;
+}
+
+.messageform,
+.messageButton,
+.textArea {
+	border: 4px solid rgba(94, 104, 121, 0.3);
+	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288),
+		4px 4px 6px rgba(94, 104, 121, 0.288);
+	margin-bottom: 10px;
+	width: 80vh;
+}
+
+.messageform {
+	height: 6vh;
+}
+
+.messageButton {
+	background-color: rgba(94, 104, 121, 0.5);
+}
+
+input::placeholder,
+textarea::placeholder {
+	text-align: center;
+	font-size: 25px;
+	font-family: "Tillana", cursive;
+}
+
+.messageButton:hover {
+	background-color: rgba(94, 104, 121, 0.3);
+}
+
+.returnMessageDesktop {
+	display: block;
+	font-size: 20px;
+	font-family: "Tillana", cursive;
+}
+
+.returnMessageMobile {
+	display: none;
 }
 
 .kontact-size {
@@ -22,8 +65,14 @@
 	margin: 20px;
 }
 
+.textMessage {
+	margin-top: 10vh;
+}
+
 .kontact-size:hover {
 	color: rgba(94, 104, 121, 0.2);
+	margin-bottom: 10px;
+	transform: translate(0px, -8px);
 }
 
 .text-lowercase:hover {
@@ -35,7 +84,6 @@
 	box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.488),
 		4px 4px 6px rgba(94, 104, 121, 0.288);
 	background-color: rgba(94, 104, 121, 0.5);
-	font-family: cursive;
 	margin: 30px;
 	font-size: 30px;
 }
@@ -78,9 +126,17 @@
 	padding-bottom: 30px;
 }
 
+input.textarea {
+	font-family: "Tillana", cursive;
+}
+
+input.messageform {
+	font-family: "Tillana", cursive;
+}
+
 @media only screen and (max-width: 1000px) {
 	.mobileContact {
-		display: contents;
+		display: inline;
 	}
 
 	.desktopContact {
@@ -91,6 +147,13 @@
 		display: none;
 	}
 
+	.button-arrow {
+		display: inline;
+		background-color: white;
+		border: none;
+		padding: 20px;
+	}
+
 	.text-center {
 		padding: 20px;
 	}
@@ -98,5 +161,45 @@
 	.footer-text {
 		font-family: "Tillana", cursive;
 		font-size: 25px;
+	}
+
+	.messageform,
+	.messageButton,
+	.textArea {
+		width: 30vh !important;
+	}
+
+	.input::placeholder,
+	textarea::placeholder {
+		font-size: 20px;
+	}
+
+	.returnMessageDesktop {
+		display: none;
+	}
+
+	.returnMessageMobile {
+		display: block;
+		font-size: 18px;
+		font-family: "Tillana", cursive;
+	}
+
+	input.messageform,
+	textarea.messageform,
+	input.textarea {
+		font-family: "Tillana", cursive !important;
+	}
+
+	input {
+		max-width: 100%;
+	}
+
+	.arrow-a {
+		text-decoration: none;
+		color: #aeb3bc;
+	}
+	.arrow-a:hover {
+		text-decoration: none;
+		color: #aeb3bc;
 	}
 }

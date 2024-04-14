@@ -9,6 +9,7 @@
 		"@testing-library/user-event": "^13.5.0",
 		"aos": "^3.0.0-beta.6",
 		"bootstrap": "^5.2.3",
+		"emailjs-com": "^3.2.0",
 		"font-awesome": "^4.7.0",
 		"gh-pages": "^5.0.0",
 		"google-map-react": "^2.2.0",
@@ -47,5 +48,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11"
 	}
 }

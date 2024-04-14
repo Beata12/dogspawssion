@@ -15,7 +15,6 @@ function AdvancedMore() {
 				<li>Praca na odległości</li>
 				<li>Wchodzenie w prawidłowe relacje z psami</li>
 			</ul>
-
 			<p>
 				Miejsce spotkań: do uzgodnienia z klientem. <br />
 				Zastrzegam sobie prawo do zmodyfikowania programu na potrzeby
